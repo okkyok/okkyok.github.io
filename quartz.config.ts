@@ -102,3 +102,5 @@ const config: QuartzConfig = {
 }
 
 export default config
+
+// コミットするための意味のない変更 2025-06-09
