@@ -16,9 +16,9 @@ const config: QuartzConfig = {
     analytics: {
       provider: "plausible",
     },
-    locale: "en-US",
-    baseUrl: "quartz.jzhao.xyz",
-    ignorePatterns: ["private", "templates", ".obsidian"],
+    locale: "ja-JP",
+    baseUrl: "okkyok.github.io",  // あなたのGitHub PagesのURL（https:// は含めない）
+    ignorePatterns: ["private", "templates", ".obsidian"],  // 無視するファイル・ディレクトリ
     defaultDateType: "modified",
     theme: {
       fontOrigin: "googleFonts",
