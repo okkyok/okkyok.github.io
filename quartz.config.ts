@@ -1,5 +1,6 @@
 import { QuartzConfig } from "./quartz/cfg"
 import * as Plugin from "./quartz/plugins"
+import * as Component from "./quartz/components/index"
 
 /**
  * Quartz 4 Configuration
@@ -8,7 +9,7 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "Quartz 4",
+    pageTitle: "愛をもって、人生を楽しみ尽くす",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
@@ -59,6 +60,7 @@ const config: QuartzConfig = {
       Plugin.CreatedModifiedDate({
         priority: ["frontmatter", "git", "filesystem"],
       }),
+      Plugin.TableOfContents(),
       Plugin.SyntaxHighlighting({
         theme: {
           light: "github-light",
@@ -67,6 +69,7 @@ const config: QuartzConfig = {
         keepBackground: false,
       }),
       Plugin.ObsidianFlavoredMarkdown({ enableInHtmlEmbed: false }),
+      Plugin.HardLineBreaks(),
       Plugin.GitHubFlavoredMarkdown(),
       Plugin.TableOfContents(),
       Plugin.CrawlLinks({ markdownLinkResolution: "shortest" }),
@@ -77,7 +80,11 @@ const config: QuartzConfig = {
     emitters: [
       Plugin.AliasRedirects(),
       Plugin.ComponentResources(),
-      Plugin.ContentPage(),
+      Plugin.ContentPage({
+        beforeBody: [
+          Component.RecentNotes(),
+        ],
+      }),
       Plugin.FolderPage(),
       Plugin.TagPage(),
       Plugin.ContentIndex({
