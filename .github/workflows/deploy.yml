@@ -1,70 +1,38 @@
 name: Deploy Quartz site to GitHub Pages
-
+ 
 on:
   push:
     branches:
       - v4
-
+ 
 permissions:
   contents: read
   pages: write
   id-token: write
-
+ 
 concurrency:
   group: "pages"
   cancel-in-progress: false
-
+ 
 jobs:
   build:
     runs-on: ubuntu-22.04
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v3
         with:
-          fetch-depth: 0
-          lfs: true  # Git LFS を有効化
-          submodules: true  # サブモジュールがあれば含める
-
-      - name: Debug file structure before build
-        run: |
-          echo "=== Current directory structure ==="
-          find . -type d | sort
-          echo -e "\n=== Content directory ==="
-          ls -la content/
-          echo -e "\n=== Git LFS status ==="
-          git lfs ls-files
-          echo -e "\n=== File count in content directory ==="
-          find content -type f | wc -l
-          echo -e "\n=== All files in content directory ==="
-          find content -type f | sort
-
-      - uses: actions/setup-node@v4
+          fetch-depth: 0 # Fetch all history for git info
+      - uses: actions/setup-node@v3
         with:
-          node-version: 22
-          cache: 'npm'
-
+          node-version: 18.14
       - name: Install Dependencies
-        run: |
-          echo "Installing npm dependencies..."
-          npm ci
-          echo -e "\nSetting up Git LFS..."
-          git lfs install
-          echo -e "\nPulling LFS files..."
-          git lfs pull
-          echo -e "\nGit LFS files after pull:"
-          git lfs ls-files
-
+        run: npm ci
       - name: Build Quartz
-        run: |
-          echo "=== Running Quartz build ==="
-          npx quartz build --verbose
-          echo -e "\n=== Built files in public directory ==="
-          find public -type f | sort
-
+        run: npx quartz build
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v2
         with:
           path: public
-
+ 
   deploy:
     needs: build
     environment:
@@ -74,4 +42,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v2
