@@ -14,9 +14,22 @@ html {
 body {
   margin: 0;
   box-sizing: border-box;
-  background-color: var(--light);
+  background-color: #fdf6e3;
   font-family: var(--bodyFont);
-  color: var(--darkgray);
+  color: #333333;
+  font-size: 1.15rem;
+  line-height: 1.5;
+  max-width: 100%;
+}
+
+/* 本文・リスト・テーブルのフォントサイズを統一 */
+p,
+li,
+td,
+th,
+ol,
+ul {
+  font-size: 1.15rem;
 }
 
 .text-highlight {
@@ -26,7 +39,7 @@ body {
 }
 ::selection {
   background: color-mix(in srgb, var(--tertiary) 60%, rgba(255, 255, 255, 0));
-  color: var(--darkgray);
+  color: #333333;
 }
 
 p,
@@ -40,9 +53,10 @@ ol,
 ul,
 .katex,
 .math {
-  color: var(--darkgray);
-  fill: var(--darkgray);
+  color: #333333;
+  fill: #333333;
   hyphens: auto;
+  font-size: 1.05rem;
 }
 
 p,
@@ -85,12 +99,13 @@ strong {
 
 a {
   font-weight: $semiBoldWeight;
+  color: #2a7ae2;
   text-decoration: none;
   transition: color 0.2s ease;
-  color: var(--secondary);
 
   &:hover {
-    color: var(--tertiary);
+    color: #1756a9;
+    text-decoration: underline;
   }
 
   &.internal {
@@ -101,7 +116,7 @@ a {
     line-height: 1.4rem;
 
     &.broken {
-      color: var(--secondary);
+      color: #555555;
       opacity: 0.5;
       transition: opacity 0.2s ease;
       &:hover {
@@ -277,9 +292,11 @@ a {
     & .page-header {
       grid-area: grid-header;
       margin: $topSpacing 0 0 0;
+      background-color: #fdf6e3;
       @media all and ($mobile) {
         margin-top: 0;
         padding: 0;
+        background-color: #fdf6e3;
       }
     }
 
@@ -399,29 +416,40 @@ h6 {
 
 // typography improvements
 h1 {
-  font-size: 1.75rem;
-  margin-top: 2.25rem;
+  font-size: 2rem;
+  margin-top: 4.5rem;
   margin-bottom: 1rem;
+  color: #222222;
+  font-weight: 600;
+  border-bottom: 1px solid #eaecef;
+  padding-bottom: 0.3em;
 }
-
 h2 {
-  font-size: 1.4rem;
-  margin-top: 1.9rem;
+  font-size: 1.5rem;
+  margin-top: 4rem;
   margin-bottom: 1rem;
+  color: #222222;
+  font-weight: 600;
+  border-bottom: 1px solid #eaecef;
+  padding-bottom: 0.3em;
 }
 
 h3 {
-  font-size: 1.12rem;
-  margin-top: 1.62rem;
+  font-size: 1.25rem;
+  margin-top: 3.5rem;
   margin-bottom: 1rem;
+  color: #222222;
+  font-weight: 600;
 }
 
 h4,
 h5,
 h6 {
   font-size: 1rem;
-  margin-top: 1.5rem;
+  margin-top: 3rem;
   margin-bottom: 1rem;
+  color: #222222;
+  font-weight: 600;
 }
 
 figure[data-rehype-pretty-code-figure] {

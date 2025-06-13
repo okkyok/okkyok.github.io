@@ -15,7 +15,7 @@
     .sidebar.left:has(.explorer) {
       box-sizing: border-box;
       position: sticky;
-      background-color: var(--light);
+      background-color: #fdf6e3;
       padding: 1rem 0 1rem 0;
       margin: 0;
     }
@@ -120,14 +120,30 @@ button.desktop-explorer {
     padding: 0;
     overscroll-behavior: contain;
 
-    & li > a {
-      color: var(--dark);
-      opacity: 0.75;
-      pointer-events: all;
+    & li {
+      margin-bottom: 0.7rem;
+      
+      & > a {
+        color: #7a8c91;
+        opacity: 0.95;
+        pointer-events: all;
+        font-size: 0.87rem !important;
+        line-height: 1.3rem !important;
+        max-width: 90%;
+        display: inline-block;
+        word-break: break-word;
+        font-weight: 400;
 
-      &.active {
-        opacity: 1;
-        color: var(--tertiary);
+        &:hover {
+          color: #5a6a6e;
+          text-decoration: underline;
+        }
+        
+        &.active {
+          opacity: 1;
+          color: #5a6a6e;
+          font-weight: 500;
+        }
       }
     }
   }
@@ -157,16 +173,19 @@ button.desktop-explorer {
   user-select: none;
 
   & div > a {
-    color: var(--secondary);
+    color: #7a8c91;
     font-family: var(--headerFont);
-    font-size: 0.95rem;
+    font-size: 0.87rem;
     font-weight: $semiBoldWeight;
-    line-height: 1.5rem;
+    line-height: 1.3rem;
     display: inline-block;
+    max-width: 100%;
+    word-break: break-word;
   }
 
   & div > a:hover {
-    color: var(--tertiary);
+    color: #5a6a6e;
+    text-decoration: underline;
   }
 
   & div > button {
@@ -182,13 +201,15 @@ button.desktop-explorer {
     font-family: var(--headerFont);
 
     & span {
-      font-size: 0.95rem;
+      font-size: 0.87rem;
       display: inline-block;
-      color: var(--secondary);
+      color: #7a8c91;
       font-weight: $semiBoldWeight;
       margin: 0;
-      line-height: 1.5rem;
+      line-height: 1.3rem;
       pointer-events: none;
+      max-width: 100%;
+      word-break: break-word;
     }
   }
 }
@@ -237,7 +258,7 @@ li:has(> .folder-outer:not(.open)) > .folder-container > svg {
       top: 0;
       left: 0;
       margin-top: 0;
-      background-color: var(--light);
+      background-color: #fdf6e3;
       max-width: 100vw;
       width: 100vw;
       transform: translateX(-100vw);

@@ -19,8 +19,14 @@ li.section-li {
       }
     }
 
-    & > .desc > h3 > a {
-      background-color: transparent;
+    & > .desc > h3 {
+      font-size: 1.1rem;
+      font-weight: 500;
+      margin-bottom: 0.3rem;
+      
+      & > a {
+        background-color: transparent;
+      }
     }
 
     & .meta {

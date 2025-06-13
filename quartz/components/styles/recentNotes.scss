@@ -11,8 +11,14 @@
 
     & > li {
       margin: 1rem 0;
-      .section > .desc > h3 > a {
-        background-color: transparent;
+      .section > .desc > h3 {
+        font-size: 1.1rem;
+        font-weight: 500;
+        margin-bottom: 0.3rem;
+        
+        & > a {
+          background-color: transparent;
+        }
       }
 
       .section > .meta {
