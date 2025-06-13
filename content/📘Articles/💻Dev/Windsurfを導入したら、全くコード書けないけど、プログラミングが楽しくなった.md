@@ -1,11 +1,12 @@
 ---
-created: '2025-05-01T23:37:00.000Z'
-updated: '2025-05-06T02:52:00.000Z'
-Slug: ''
-Category: ['開発｜Development']
-Published: 'false'
-Date: ''
-title: 'Windsurfを導入したら、全くコード書けないけど、プログラミングが楽しくなった'
+created: 2025-05-01T23:37:00.000Z
+updated: 2025-05-06T02:52:00.000Z
+Slug: ""
+Category:
+  - 開発｜Development
+Published: "false"
+Date: ""
+title: Windsurfを導入したら、全くコード書けないけど、プログラミングが楽しくなった
 ---
 
 [Notionページ](https://www.notion.so/Windsurf-1e694d022bbd80f691bfcde558438176)
@@ -14,7 +15,7 @@ title: 'Windsurfを導入したら、全くコード書けないけど、プロ�
 
 
 
-どうもCursorと[Windsurf](https://windsurf.com/refer?referral_code=5e1j9oeuvfqdqjno)の２強らしいので、下記を参考にコードは全く書けないので、どうも初心者にオススメらしいWindsurfを導入することに。
+どうもCursorと[[Windsurf]]の２強らしいので、下記を参考にコードは全く書けないので、どうも初心者にオススメらしいWindsurfを導入することに。
 
 
 
@@ -26,7 +27,7 @@ title: 'Windsurfを導入したら、全くコード書けないけど、プロ�
 
 
 
-## [Windsurf](https://windsurf.com/refer?referral_code=5e1j9oeuvfqdqjno)を導入して良かった点
+## [[Windsurf]]を導入して良かった点
 
 
 
@@ -44,7 +45,7 @@ title: 'Windsurfを導入したら、全くコード書けないけど、プロ�
 
 
 
-ひたすら[Windsurf](https://windsurf.com/refer?referral_code=5e1j9oeuvfqdqjno)のCascade君に依頼をしまくってたら、あっという間にクレジット使い切ったので課金。
+ひたすら[[Windsurf]]のCascade君に依頼をしまくってたら、あっという間にクレジット使い切ったので課金。
 
 身の回りが便利になる生産的な趣味と考えたら、15USD/月なんて安いもんだ。ということでそのまま課金。
 
@@ -56,7 +57,7 @@ title: 'Windsurfを導入したら、全くコード書けないけど、プロ�
 
 
 
-[Windsurf](https://windsurf.com/refer?referral_code=5e1j9oeuvfqdqjno)を導入してからというもの、１日少なくとも２〜３時間はひたすらCascadeくんと会話している。
+[[Windsurf]]を導入してからというもの、１日少なくとも２〜３時間はひたすらCascadeくんと会話している。
 
 
 

@@ -1,11 +1,12 @@
 ---
-created: '2022-03-18'
-updated: '2025-05-01T13:38:00.000Z'
-Slug: '2305-pt-oura-1'
-Category: ['パートナーシップ｜Partnership']
-Published: 'true'
-Date: '2022-03-18'
-title: 'OURA Ringでプロポーズするための準備'
+created: 2022-03-18
+updated: 2025-05-01T13:38:00.000Z
+Slug: 2305-pt-oura-1
+Category:
+  - パートナーシップ｜Partnership
+Published: "true"
+Date: 2022-03-18
+title: OURA Ringでプロポーズするための準備
 ---
 
 [Notionページ](https://www.notion.so/OURA-Ring-a57ee0585fb54ec591de34e2edaa76a6)

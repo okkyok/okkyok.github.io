@@ -388,6 +388,11 @@ thead {
     color: var(--dark);
     background-color: transparent;
   }
+  
+  /* Ensure links inside headings inherit the parent heading's font size */
+  a {
+    font-size: inherit;
+  }
 }
 
 h1,
@@ -414,42 +419,285 @@ h6 {
   }
 }
 
-// typography improvements
-h1 {
-  font-size: 2rem;
-  margin-top: 4.5rem;
-  margin-bottom: 1rem;
-  color: #222222;
-  font-weight: 600;
-  border-bottom: 1px solid #eaecef;
-  padding-bottom: 0.3em;
-}
-h2 {
-  font-size: 1.5rem;
-  margin-top: 4rem;
-  margin-bottom: 1rem;
-  color: #222222;
-  font-weight: 600;
-  border-bottom: 1px solid #eaecef;
-  padding-bottom: 0.3em;
-}
+// typography improvements - Obsidian/MkDocs スタイル
+// メインコンテンツ内の見出しにのみスタイルを適用
+article {
+  h1, h1.publish-article-heading {
+    font-size: 25.6px;
+    line-height: 30.72px;
+    margin-top: 4.5rem;
+    margin-bottom: 1.5rem;
+    font-weight: 700;
+    position: relative;
+    padding: .5em .7em;
+    border-radius: 10px;
+    background-color: #29a198;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.40545px;
+    transition: all 0.2s ease;
+    
+    // リンクアイコンのスタイル
+    .clickable-icon {
+      opacity: 0.7;
+      margin-left: 8px;
+      transition: opacity 0.2s ease;
+      
+      &:hover {
+        opacity: 1;
+      }
+      
+      svg {
+        width: 18px;
+        height: 18px;
+        color: #fff;
+      }
+    }
+    
+    // 折りたたみインジケーターのスタイル
+    .heading-collapse-indicator {
+      margin-right: 8px;
+      transition: transform 0.2s ease;
+      
+      svg {
+        width: 18px;
+        height: 18px;
+        color: #fff;
+      }
+      
+      &.collapsed svg {
+        transform: rotate(-90deg);
+      }
+    }
+    
+    // ホバー効果
+    &:hover {
+      background-color: #1e7a74;
+    }
+    
+    a {
+      color: #fff;
+    }
+  }
 
-h3 {
-  font-size: 1.25rem;
-  margin-top: 3.5rem;
-  margin-bottom: 1rem;
-  color: #222222;
-  font-weight: 600;
-}
+  h2, h2.publish-article-heading {
+    font-size: 22.4px;
+    line-height: 26.88px;
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+    color: #29a198;
+    font-weight: 600;
+    letter-spacing: -0.36045px;
+    position: relative;
+    padding: .5em .7em;
+    border-left: 11px solid #29a198;
+    border-bottom: 3px solid #ccd4cc;
+    background-color: #ecf4ec;
+    border-radius: 0 8px 8px 0;
+    display: flex;
+    align-items: center;
+    transition: all 0.2s ease;
+    
+    // リンクアイコンのスタイル
+    .clickable-icon {
+      opacity: 0.6;
+      margin-left: 8px;
+      transition: opacity 0.2s ease;
+      
+      &:hover {
+        opacity: 1;
+      }
+      
+      svg {
+        width: 16px;
+        height: 16px;
+      }
+    }
+    
+    // 折りたたみインジケーターのスタイル
+    .heading-collapse-indicator {
+      margin-right: 8px;
+      transition: transform 0.2s ease;
+      
+      svg {
+        width: 16px;
+        height: 16px;
+        color: #333333;
+      }
+      
+      &.collapsed svg {
+        transform: rotate(-90deg);
+      }
+    }
+    
+    // ホバー効果
+    &:hover {
+      background-color: #dbe9db;
+    }
+    
+    a {
+      color: #333333;
+    }
+  }
 
-h4,
-h5,
-h6 {
-  font-size: 1rem;
-  margin-top: 3rem;
-  margin-bottom: 1rem;
-  color: #222222;
-  font-weight: 600;
+  h3, h3.publish-article-heading {
+    font-size: 20.8px;
+    line-height: 24px;
+    margin-top: 3.5rem;
+    margin-bottom: 1rem;
+    color: #29a198;
+    font-weight: 600;
+    letter-spacing: -0.3204px;
+    position: relative;
+    padding: .5em .7em;
+    border-left: 8px solid #29a198;
+    background-color: transparent;
+    border-radius: 0 8px 8px 0;
+    display: flex;
+    align-items: center;
+    transition: all 0.2s ease;
+    
+    // リンクアイコンのスタイル
+    .clickable-icon {
+      opacity: 0.6;
+      margin-left: 8px;
+      transition: opacity 0.2s ease;
+      
+      &:hover {
+        opacity: 1;
+      }
+      
+      svg {
+        width: 14px;
+        height: 14px;
+      }
+    }
+    
+    // 折りたたみインジケーターのスタイル
+    .heading-collapse-indicator {
+      margin-right: 8px;
+      transition: transform 0.2s ease;
+      
+      svg {
+        width: 14px;
+        height: 14px;
+        color: #333333;
+      }
+      
+      &.collapsed svg {
+        transform: rotate(-90deg);
+      }
+    }
+    
+    // ホバー効果
+    &:hover {
+      border-left-color: #1e7a74;
+      border-bottom-color: #a7c2d6;
+    }
+    
+    a {
+      color: #333333;
+    }
+  }
+
+  h4, h4.publish-article-heading {
+    font-size: 1.15rem;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    color: #29a198;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+    position: relative;
+    padding: .5em .7em;
+    border-left: 5px solid #29a198;
+    background-color: transparent;
+    border-radius: 0 8px 8px 0;
+    display: flex;
+    align-items: center;
+    transition: all 0.2s ease;
+    
+    // リンクアイコンのスタイル
+    .clickable-icon {
+      opacity: 0.6;
+      margin-left: 8px;
+      transition: opacity 0.2s ease;
+      
+      &:hover {
+        opacity: 1;
+      }
+      
+      svg {
+        width: 12px;
+        height: 12px;
+      }
+    }
+    
+    // 折りたたみインジケーターのスタイル
+    .heading-collapse-indicator {
+      margin-right: 8px;
+      transition: transform 0.2s ease;
+      
+      svg {
+        width: 12px;
+        height: 12px;
+        color: #333333;
+      }
+      
+      &.collapsed svg {
+        transform: rotate(-90deg);
+      }
+    }
+    
+    // ホバー効果
+    &:hover {
+      border-left-color: #1e7a74;
+      border-bottom-color: #a7c2d6;
+    }
+    
+    a {
+      color: #333333;
+    }
+  }
+
+  h5 {
+    font-size: 1rem;
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+    color: #29a198;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+    position: relative;
+    padding: .5em .7em;
+    border-left: 3px solid #29a198;
+    background-color: transparent;
+    border-radius: 0 8px 8px 0;
+    display: flex;
+    align-items: center;
+    transition: all 0.2s ease;
+    
+    // ホバー効果
+    &:hover {
+      border-left-color: #1e7a74;
+    }
+  }
+
+  h6 {
+    font-size: 1rem;
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+    color: #29a198;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+    position: relative;
+    padding: .5em .7em;
+    border-left: 1px solid #29a198;
+    background-color: transparent;
+    border-radius: 0 3px 3px 0;
+    display: flex;
+    align-items: center;
+    transition: all 0.2s ease;
+  }
 }
 
 figure[data-rehype-pretty-code-figure] {
