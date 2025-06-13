@@ -494,7 +494,7 @@ article {
     border-left: 11px solid #29a198;
     border-bottom: 3px solid #ccd4cc;
     background-color: #ecf4ec;
-    border-radius: 0 8px 8px 0;
+    border-radius: 8px;
     display: flex;
     align-items: center;
     transition: all 0.2s ease;
@@ -542,8 +542,8 @@ article {
   }
 
   h3, h3.publish-article-heading {
-    font-size: 20.8px;
-    line-height: 24px;
+    font-size: 19.5px;
+    line-height: 20.8px;
     margin-top: 3.5rem;
     margin-bottom: 1rem;
     color: #29a198;
@@ -553,7 +553,7 @@ article {
     padding: .5em .7em;
     border-left: 8px solid #29a198;
     background-color: transparent;
-    border-radius: 0 8px 8px 0;
+    border-radius: 8px;
     display: flex;
     align-items: center;
     transition: all 0.2s ease;
@@ -612,7 +612,7 @@ article {
     padding: .5em .7em;
     border-left: 5px solid #29a198;
     background-color: transparent;
-    border-radius: 0 8px 8px 0;
+    border-radius: 8px;
     display: flex;
     align-items: center;
     transition: all 0.2s ease;
@@ -671,7 +671,7 @@ article {
     padding: .5em .7em;
     border-left: 3px solid #29a198;
     background-color: transparent;
-    border-radius: 0 8px 8px 0;
+    border-radius: 8px;
     display: flex;
     align-items: center;
     transition: all 0.2s ease;
@@ -693,7 +693,7 @@ article {
     padding: .5em .7em;
     border-left: 1px solid #29a198;
     background-color: transparent;
-    border-radius: 0 3px 3px 0;
+    border-radius: 3px;
     display: flex;
     align-items: center;
     transition: all 0.2s ease;
