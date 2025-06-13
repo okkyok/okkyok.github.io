@@ -23,16 +23,43 @@ jobs:
           fetch-depth: 0
           lfs: true  # Git LFS を有効化
           submodules: true  # サブモジュールがあれば含める
+
+      - name: Debug file structure before build
+        run: |
+          echo "=== Current directory structure ==="
+          find . -type d | sort
+          echo -e "\n=== Content directory ==="
+          ls -la content/
+          echo -e "\n=== Git LFS status ==="
+          git lfs ls-files
+          echo -e "\n=== File count in content directory ==="
+          find content -type f | wc -l
+          echo -e "\n=== All files in content directory ==="
+          find content -type f | sort
+
       - uses: actions/setup-node@v4
         with:
           node-version: 22
+          cache: 'npm'
+
       - name: Install Dependencies
         run: |
+          echo "Installing npm dependencies..."
           npm ci
+          echo -e "\nSetting up Git LFS..."
           git lfs install
+          echo -e "\nPulling LFS files..."
           git lfs pull
+          echo -e "\nGit LFS files after pull:"
+          git lfs ls-files
+
       - name: Build Quartz
-        run: npx quartz build
+        run: |
+          echo "=== Running Quartz build ==="
+          npx quartz build --verbose
+          echo -e "\n=== Built files in public directory ==="
+          find public -type f | sort
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
