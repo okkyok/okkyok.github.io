@@ -21,6 +21,26 @@ jobs:
       - uses: actions/checkout@v3
         with:
           fetch-depth: 0 # Fetch all history for git info
+      - name: Debug - Check Repository Structure
+        run: |
+          echo "=== Repository Structure ==="
+          ls -la
+          echo "=== Branches ==="
+          git branch -a
+          echo "=== Current Branch ==="
+          git branch --show-current
+          echo "=== Content Directory Check ==="
+          if [ -d "content" ]; then
+            echo "Content directory exists"
+            ls -la content/
+            echo "=== Number of Markdown Files ==="
+            find content -name "*.md" | wc -l
+          else
+            echo "Content directory does NOT exist"
+            echo "Creating minimal content directory for debugging"
+            mkdir -p content
+            echo "# Welcome" > content/index.md
+          fi
       - uses: actions/setup-node@v3
         with:
           node-version: 22
@@ -28,6 +48,16 @@ jobs:
         run: npm ci
       - name: Build Quartz
         run: npx quartz build
+      - name: Debug - Check Build Output
+        run: |
+          echo "=== Build Output Structure ==="
+          ls -la public/
+          echo "=== Index.html Content ==="
+          if [ -f "public/index.html" ]; then
+            head -n 20 public/index.html
+          else
+            echo "index.html does not exist in public directory"
+          fi
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
