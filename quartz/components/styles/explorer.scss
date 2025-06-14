@@ -29,17 +29,20 @@
 .explorer {
   display: flex;
   flex-direction: column;
-  overflow-y: hidden;
-  scrollbar-width: none; /* Firefox */
-  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox用 */
+  -ms-overflow-style: none; /* IE/Edge用 */
   &::-webkit-scrollbar {
-    display: none; /* Chrome, Safari, Opera */
+    display: none; /* Chrome/Safari/Opera用 */
   }
   margin-top: 0;
-  padding-top: 0;
-  margin-bottom: 0;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
   min-height: 1.2rem;
-  flex: 0 1 auto;
+  flex: 1 1 auto;
+  position: sticky;
+  top: 2.5rem;
+  max-height: calc(100vh - 4rem);
   
   /* ナビゲーションのヘッダー部分を固定 */
   & > button.desktop-explorer {
@@ -69,8 +72,22 @@
     overflow: hidden;
     flex-shrink: 0;
     align-self: flex-start;
-    margin-top: auto;
-    margin-bottom: auto;
+    margin: 0;
+    position: initial;
+    max-height: none;
+    padding: 0.5rem 1rem;
+    
+    .explorer-scrollable {
+      max-height: 60vh; /* モバイルでの最大高さを制限 */
+      padding-right: 0;
+    }
+    
+    /* モバイルではスクロールバーを非表示に */
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    &::-webkit-scrollbar {
+      display: none;
+    }
   }
 
   button.mobile-explorer {
@@ -147,14 +164,20 @@ button.desktop-explorer {
 }
 
 .explorer-content {
-  list-style: none;
-  overflow-y: auto; /* スクロール可能に変更 */
-  max-height: calc(100vh - 100px); /* コンテンツの最大高さを設定 */
-  margin-top: 0;
-  scrollbar-width: none; /* Firefox */
-  -ms-overflow-style: none; /* IE and Edge */
-  &::-webkit-scrollbar {
-    display: none; /* Chrome, Safari, Opera */
+  flex: 1 1 auto;
+  overflow: hidden;
+  
+  /* スクロール可能な領域 */
+  .explorer-scrollable {
+    overflow-y: auto;
+    max-height: calc(100% - 2.5rem);
+    padding-right: 0.5rem;
+    box-sizing: border-box;
+    scrollbar-width: none; /* Firefox用 */
+    -ms-overflow-style: none; /* IE/Edge用 */
+    &::-webkit-scrollbar {
+      display: none; /* Chrome/Safari/Opera用 */
+    }
   }
 
   & ul {

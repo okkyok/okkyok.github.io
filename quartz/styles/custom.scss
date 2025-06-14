@@ -7,7 +7,7 @@ body footer {
   // 位置の調整
   position: fixed;
   bottom: 1rem;
-  right: 1rem;
+  right: 2rem; // 1remから3remに変更して2remの余白を追加
   width: auto;
   max-width: 14rem;
   z-index: 100;
@@ -24,7 +24,7 @@ body footer {
   
   // 全てのテキスト要素にサイズと行間を適用
   *, p, li, a {
-    font-size: 0.7rem !important;
+    font-size: 0.75rem !important;
     line-height: 0.9 !important;
   }
   

@@ -247,10 +247,18 @@ a {
       gap: 2rem;
       top: 0;
       box-sizing: border-box;
-      padding: 0 1rem 1rem 1.5rem; /* 左側の余白を1.5remに増やし、上側は0のまま */
+      padding: 0 0 1rem 0; /* 左右の余白を削除（コンポーネント側で設定） */
       display: flex;
       height: 100vh;
       position: sticky;
+      overflow: hidden; /* スクロールバーを非表示に */
+      
+      /* スクロールバーを非表示に（念のため） */
+      scrollbar-width: none; /* Firefox */
+      -ms-overflow-style: none; /* IE and Edge */
+      &::-webkit-scrollbar {
+        display: none; /* Chrome, Safari, Opera */
+      }
     }
 
     & .sidebar.left {
@@ -283,6 +291,12 @@ a {
         top: 0;
         height: 100vh;
         overflow-y: auto;
+        /* スクロールバーを非表示に */
+        scrollbar-width: none; /* Firefox */
+        -ms-overflow-style: none; /* IE and Edge */
+        &::-webkit-scrollbar {
+          display: none; /* Chrome, Safari, Opera */
+        }
       }
       
       @media all and not ($desktop) {

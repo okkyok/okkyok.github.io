@@ -3,17 +3,37 @@
 .toc {
   display: flex;
   flex-direction: column;
-  overflow-y: auto; /* スクロール可能に変更 */
+  scrollbar-width: none; /* Firefox用 */
+  -ms-overflow-style: none; /* IE/Edge用 */
+  &::-webkit-scrollbar {
+    display: none; /* Chrome/Safari/Opera用 */
+  }
   min-height: 1.4rem;
-  flex: 0 0.5 auto;
-  margin-top: 2.5rem; /* 目次の上側に余白を追加 */
-  margin-left: 1rem; /* 目次の左側の余白を0.5rem減少 */
-  margin-right: 1.5rem; /* 目次の右側の余白はそのまま */
+  flex: 1 1 auto;
+  margin-top: 1.75rem; /* 目次の上側の余白を調整 */
+  margin-left: 1rem; /* 目次の左側の余白 */
+  margin-right: 1rem; /* 目次の右側の余白を1.5remに設定 */
+  margin-bottom: 1rem; /* 下部の余白を調整 */
   position: sticky; /* 固定表示に設定 */
   top: 2.5rem; /* 上部からの位置 */
   max-height: calc(100vh - 4rem); /* 画面高さから余白を引いた高さ */
+  
   &:has(button.toc-header.collapsed) {
     flex: 0 1 1.4rem;
+  }
+  
+  /* スクロール可能な領域を内側に作成 */
+  .toc-scrollable {
+    overflow-y: auto;
+    max-height: calc(100% - 2.5rem); /* ヘッダーの高さ分を引く */
+    padding-right: 0.5rem; /* スクロールバーのための余白 */
+    
+    /* スクロールバーを非表示に */
+    scrollbar-width: none; /* Firefox用 */
+    -ms-overflow-style: none; /* IE/Edge用 */
+    &::-webkit-scrollbar {
+      display: none; /* Chrome/Safari/Opera用 */
+    }
   }
 }
 
@@ -49,10 +69,18 @@ button.toc-header {
 ul.toc-content.overflow {
   list-style: none !important;
   position: relative;
-  margin: 0.5rem 0;
-  padding: 0;
-  max-height: calc(100% - 2rem);
+  margin: 0;
+  padding: 0.5rem 0 2rem 0; /* 上下に余白を追加 */
+  width: 100%;
+  box-sizing: border-box;
   overscroll-behavior: contain;
+  
+  // スクロールバーを非表示にしつつ、スクロール機能は維持
+  scrollbar-width: none; /* Firefox用 */
+  -ms-overflow-style: none; /* IE/Edge用 */
+  &::-webkit-scrollbar {
+    display: none; /* Chrome/Safari/Opera用 */
+  }
   
   // 深さレベルごとのグループ化（縦線のため）
   @for $i from 1 through 6 {
@@ -89,7 +117,7 @@ ul.toc-content.overflow {
       &.in-view {
         opacity: 1;
         color: #29a198; /* ハイライト色を#93c9c2に変更 */
-        font-weight: 520; /* 太字の度合いを小さくして600から500に変更 */
+        font-weight: 600; /* 太字の度合いを小さくして600から500に変更 */
         position: relative;
         
         /* 左側にマーカーを追加 */
