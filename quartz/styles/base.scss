@@ -17,7 +17,7 @@ body {
   background-color: #fdf6e3;
   font-family: var(--bodyFont);
   color: #647a83;
-  font-size: 1.05rem;
+  font-size: 1.00rem;
   line-height: 1.5;
   max-width: 100%;
   padding-top: 0; /* 上部のパディングを削除 */
@@ -247,7 +247,7 @@ a {
       gap: 2rem;
       top: 0;
       box-sizing: border-box;
-      padding: $topSpacing 2rem 2rem 2rem;
+      padding: $topSpacing 1rem 1rem 1rem; /* 左の余白を2remから1remに半分にしました */
       display: flex;
       height: 100vh;
       position: sticky;
@@ -288,7 +288,7 @@ a {
           max-height: 24rem;
         }
         & > .toc {
-          display: none;
+          display: flex; /* 目次を表示するように変更 */
         }
       }
     }
