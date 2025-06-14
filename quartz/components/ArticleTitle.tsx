@@ -15,6 +15,7 @@ ArticleTitle.css = `
   margin: 2rem 0 0 0;
   font-size: 2.0rem;
   line-height: 2.4rem;
+  color: #647a83;
 }
 `
 

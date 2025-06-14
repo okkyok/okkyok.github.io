@@ -46,6 +46,9 @@ $tabletGrid: (
       "grid-sidebar-left grid-sidebar-right"\
       "grid-sidebar-left grid-footer"',
 );
+// Text colors
+$text-color: #647a83;
+
 $desktopGrid: (
   templateRows: "auto auto auto",
   templateColumns: "#{$sidePanelWidth} auto #{$sidePanelWidth}",

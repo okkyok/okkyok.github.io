@@ -16,7 +16,7 @@ body {
   box-sizing: border-box;
   background-color: #fdf6e3;
   font-family: var(--bodyFont);
-  color: #333333;
+  color: #647a83;
   font-size: 1.15rem;
   line-height: 1.5;
   max-width: 100%;
@@ -102,17 +102,19 @@ a {
   color: #2a7ae2;
   text-decoration: none;
   transition: color 0.2s ease;
+  background-color: transparent;
 
   &:hover {
     color: #1756a9;
     text-decoration: underline;
+    background-color: transparent;
   }
 
   &.internal {
     text-decoration: none;
-    background-color: var(--highlight);
-    padding: 0 0.1rem;
-    border-radius: 5px;
+    background-color: transparent;
+    padding: 0;
+    border-radius: 0;
     line-height: 1.4rem;
 
     &.broken {
