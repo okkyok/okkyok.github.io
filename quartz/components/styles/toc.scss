@@ -3,10 +3,15 @@
 .toc {
   display: flex;
   flex-direction: column;
-  overflow-y: hidden;
+  overflow-y: auto; /* スクロール可能に変更 */
   min-height: 1.4rem;
   flex: 0 0.5 auto;
   margin-top: 2rem; /* 目次の上側に余白を追加 */
+  margin-left: 1.5rem; /* 目次の左側に余白を追加 */
+  margin-right: 1rem; /* 目次の右側に余白を追加 */
+  position: sticky; /* 固定表示に設定 */
+  top: 2rem; /* 上部からの位置 */
+  max-height: calc(100vh - 4rem); /* 画面高さから余白を引いた高さ */
   &:has(button.toc-header.collapsed) {
     flex: 0 1 1.4rem;
   }
@@ -23,7 +28,7 @@ button.toc-header {
   align-items: center;
 
   & h3 {
-    font-size: 0.8rem;
+    font-size: 0.85rem; /* 0.8remから0.85remに変更 */
     display: inline-block;
     margin: 0;
     color: #7a8c91;
@@ -67,7 +72,7 @@ ul.toc-content.overflow {
     & > a {
       color: #7a8c91;
       opacity: 0.95;
-      font-size: 0.8rem;
+      font-size: 0.85rem; /* 0.8remから0.85remに変更 */
       font-weight: 400;
       line-height: 1.3rem;
       display: inline-block;
@@ -83,8 +88,22 @@ ul.toc-content.overflow {
       
       &.in-view {
         opacity: 1;
-        color: #5a6a6e;
-        font-weight: 500;
+        color: #29a198; /* より目立つ色に変更 */
+        font-weight: 600; /* より太字に */
+        position: relative;
+        
+        /* 左側にマーカーを追加 */
+        &::before {
+          content: "";
+          position: absolute;
+          left: -10px;
+          top: 50%;
+          transform: translateY(-50%);
+          width: 5px;
+          height: 5px;
+          border-radius: 50%;
+          background-color: #29a198;
+        }
       }
     }
     

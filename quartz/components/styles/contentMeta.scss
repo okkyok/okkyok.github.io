@@ -1,6 +1,7 @@
 .content-meta {
   margin-top: 0;
   color: #637983;
+  text-align: right; /* 右揃えに設定 */
 
   &[show-comma="true"] {
     > *:not(:last-child) {

@@ -17,8 +17,8 @@ body {
   background-color: #fdf6e3;
   font-family: var(--bodyFont);
   color: #647a83;
-  font-size: 1.00rem;
-  line-height: 1.5;
+  font-size: 0.95rem;
+  line-height: 1.4;
   max-width: 100%;
   padding-top: 0; /* 上部のパディングを削除 */
 }
@@ -188,7 +188,7 @@ a {
   margin: 0 auto;
   & article {
     & > h1 {
-      font-size: 2rem;
+      font-size: 1.9rem;
     }
 
     & li:has(> input[type="checkbox"]) {
@@ -277,6 +277,14 @@ a {
         margin-left: inherit;
         margin-right: inherit;
       }
+      /* デスクトップ表示時のみ固定表示を有効に */
+      @media all and ($desktop) {
+        position: sticky;
+        top: 0;
+        height: 100vh;
+        overflow-y: auto;
+      }
+      
       @media all and not ($desktop) {
         position: initial;
         height: unset;
@@ -310,6 +318,7 @@ a {
 
     & .center > article {
       grid-area: grid-center;
+      padding-left: 1.5rem; /* 記事コンテンツの左側に余白を追加 */
     }
 
     & footer {
@@ -494,8 +503,8 @@ article {
 
   h2, h2.publish-article-heading {
     font-size: 1.4rem;
-    line-height: 1.7rem;
-    margin-top: 4rem;
+    line-height: 1.5rem;
+    margin-top: 3rem;
     margin-bottom: 1rem;
     color: #29a198;
     font-weight: 600;
@@ -554,7 +563,7 @@ article {
 
   h3, h3.publish-article-heading {
     font-size: 1.2rem;
-    line-height: 1.3rem;
+    line-height: 1.25rem;
     margin-top: 3.5rem;
     margin-bottom: 1rem;
     color: #29a198;

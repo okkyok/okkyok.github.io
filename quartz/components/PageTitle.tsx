@@ -44,8 +44,8 @@ PageTitle.css = `
 
 .logo-img {
   height: auto;
-  width: auto;
-  max-width: 500px;
+  width: auto; /* 自動調節に戻す */
+  max-width: 450px; /* 最大横幅を450pxに設定 */
   max-height: 150px;
   object-fit: contain;
 }
