@@ -9,11 +9,11 @@
 
   & > .search-button {
     background-color: #fdf6e3;
-    border: none;
+    border: 1px solid #637983; /* 境界線の色を#637983に変更 */
     border-radius: 4px;
     font-family: inherit;
     font-size: inherit;
-    height: 2rem;
+    height: 1.75rem; /* 高さを少し小さく */
     padding: 0;
     display: flex;
     align-items: center;
@@ -25,7 +25,8 @@
 
     & > p {
       display: inline;
-      padding: 0 1rem;
+      padding: 0 0 0 0.5rem; /* 左側に0.5remの空白を追加 */
+      color: #637983; /* 検索窓の枠と同じ色に設定 */
     }
 
     & svg {
@@ -84,7 +85,7 @@
         font-family: var(--bodyFont);
         color: #333333;
         font-size: 1.1em;
-        border: 1px solid var(--lightgray);
+        border: 1px solid #637983; /* 境界線の色を#637983に変更 */
         background-color: #fdf6e3;
 
         &:focus {

@@ -23,8 +23,8 @@ PageTitle.css = `
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 0.25rem;
-  margin: 1rem 0 0.5rem 0;
+  gap: 0;
+  margin: 0;
 }
 
 .page-title {
@@ -36,7 +36,7 @@ PageTitle.css = `
 
 .logo {
   display: block;
-  margin: 0 auto 0.25rem auto;
+  margin: 0;
   text-align: center;
   width: 100%;
   line-height: 1;
