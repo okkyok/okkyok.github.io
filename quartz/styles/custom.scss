@@ -1,3 +1,66 @@
 @use "./base.scss";
 
 // put your custom CSS here!
+
+// フッターを右サイドパネルの下に配置
+body footer {
+  // 位置の調整
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  width: auto;
+  max-width: 14rem;
+  z-index: 100;
+  
+  // テキスト配置
+  text-align: right;
+  
+  // サイズと透明度
+  font-size: 0.75rem !important;
+  opacity: 0.6;
+  
+  // マージン調整
+  margin-bottom: 0;
+  
+  // 全てのテキスト要素にサイズと行間を適用
+  *, p, li, a {
+    font-size: 0.7rem !important;
+    line-height: 0.9 !important;
+  }
+  
+  // パラグラフ要素
+  p {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 0.2rem;
+  }
+  
+  // リンクスタイル
+  a {
+    color: inherit;
+    text-decoration: none;
+    
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+  
+  // リスト調整
+  ul {
+    justify-content: flex-end;
+    margin-top: 0.2rem;
+    padding: 0;
+    gap: 0.5rem;
+  }
+  
+  // モバイル対応
+  @media (max-width: 600px) {
+    position: static;
+    text-align: center;
+    margin-top: 2rem;
+    
+    ul {
+      justify-content: center;
+    }
+  }
+}
