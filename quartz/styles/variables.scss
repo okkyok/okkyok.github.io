@@ -17,7 +17,7 @@ $tablet: "(min-width: #{map.get($breakpoints, mobile)}) and (max-width: #{map.ge
 $desktop: "(min-width: #{map.get($breakpoints, desktop)})";
 
 $pageWidth: #{map.get($breakpoints, mobile)};
-$sidePanelWidth: 310px; /* 280pxから20px増加して目次の表示スペースを確保 */
+$sidePanelWidth: 300px; /* 310pxから10px減少 */
 $topSpacing: 1.5rem; 
 $boldWeight: 700;
 $semiBoldWeight: 600;
@@ -51,7 +51,7 @@ $desktopGrid: (
   templateRows: "auto auto auto",
   templateColumns: "#{$sidePanelWidth} auto #{$sidePanelWidth}",
   rowGap: "5px",
-  columnGap: "5px",
+  columnGap: "5px", // 左サイドバーとメインコンテンツの間隔を5pxから1remに変更
   templateAreas:
     '"grid-sidebar-left grid-header grid-sidebar-right"\
       "grid-sidebar-left grid-center grid-sidebar-right"\

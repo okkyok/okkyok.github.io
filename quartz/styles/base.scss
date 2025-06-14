@@ -247,7 +247,7 @@ a {
       gap: 2rem;
       top: 0;
       box-sizing: border-box;
-      padding: 0 0 1rem 0; /* 左右の余白を削除（コンポーネント側で設定） */
+      padding: 0 0 0 1rem; /* 左右に1remの余白を追加 */
       display: flex;
       height: 100vh;
       position: sticky;
@@ -265,6 +265,7 @@ a {
       z-index: 1;
       grid-area: grid-sidebar-left;
       flex-direction: column;
+      border-right: 1px solid #a2abb0; /* 右側に1pxの境界線を追加 */
       @media all and ($mobile) {
         gap: 0;
         align-items: center;
