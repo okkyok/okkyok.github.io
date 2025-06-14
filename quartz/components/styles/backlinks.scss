@@ -16,12 +16,13 @@
     margin: 0.5rem 0;
     max-height: calc(100% - 2rem);
     overscroll-behavior: contain;
+    font-size: 0.95rem; /* ベースより少し小さめに */
 
     & > li {
       & > a {
         background-color: transparent;
         color: #2a7ae2; /* メインリンクと同じ色に */
-        font-size: 1.0rem;
+        font-size: 1em; /* 親要素のフォントサイズを継承 */
         font-weight: var(--regular);
         text-decoration: none;
         transition: color 0.2s ease;

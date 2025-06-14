@@ -6,9 +6,13 @@
 
 html {
   scroll-behavior: smooth;
-  text-size-adjust: none;
+  text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
   overflow-x: hidden;
   width: 100vw;
+  font-size: 16px; /* ベースフォントサイズを固定 */
 }
 
 body {
@@ -17,10 +21,12 @@ body {
   background-color: #fdf6e3;
   font-family: var(--bodyFont);
   color: #647a83;
-  font-size: 0.95rem;
-  line-height: 1.4;
+  font-size: 1rem; /* ベースフォントサイズを1remに統一 */
+  line-height: 1.6;
   max-width: 100%;
   padding-top: 0; /* 上部のパディングを削除 */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 /* 本文・リスト・テーブルのフォントサイズを統一 */
