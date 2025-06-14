@@ -29,7 +29,7 @@ td,
 th,
 ol,
 ul {
-  font-size: 1.15rem;
+  font-size: 1.05rem;
 }
 
 .text-highlight {
@@ -429,10 +429,6 @@ h6 {
 // メインコンテンツ内の見出しにのみスタイルを適用
 article {
   color: #637983;
-  
-  p, li {
-    font-size: 1.05rem;
-  }
   
   // .article-titleクラスが付いていない通常のh1にのみ適用
   h1:not(.article-title), h1.publish-article-heading {

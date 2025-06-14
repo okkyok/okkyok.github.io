@@ -1,5 +1,5 @@
 ---
-created: 2023-11-22
+created: 2023-11-08
 updated: 2025-05-01T13:32:00.000Z
 Slug: 2311-pt-the-art-of-loving
 Category:
