@@ -4,15 +4,21 @@
 @use "./syntax.scss";
 @use "./callouts.scss";
 
+/* ベースフォントサイズを16pxに固定 */
+:root {
+  --base-font-size: 16px;
+}
+
+/* フォントサイズの継承を防ぐ */
 html {
-  scroll-behavior: smooth;
-  text-size-adjust: 100%;
+  font-size: var(--base-font-size) !important;
   -webkit-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  scroll-behavior: smooth;
   overflow-x: hidden;
   width: 100vw;
-  font-size: 16px; /* ベースフォントサイズを固定 */
 }
 
 body {
@@ -21,12 +27,13 @@ body {
   background-color: #fdf6e3;
   font-family: var(--bodyFont);
   color: #647a83;
-  font-size: 1rem; /* ベースフォントサイズを1remに統一 */
+  font-size: 1rem !important; /* ベースフォントサイズを1remに固定 */
   line-height: 1.6;
   max-width: 100%;
-  padding-top: 0; /* 上部のパディングを削除 */
+  padding-top: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
 }
 
 /* 本文・リスト・テーブルのフォントサイズを統一 */
