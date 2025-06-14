@@ -80,11 +80,7 @@ const config: QuartzConfig = {
     emitters: [
       Plugin.AliasRedirects(),
       Plugin.ComponentResources(),
-      Plugin.ContentPage({
-        beforeBody: [
-          Component.RecentNotes(),
-        ],
-      }),
+      Plugin.ContentPage(),
       Plugin.FolderPage(),
       Plugin.TagPage(),
       Plugin.ContentIndex({
