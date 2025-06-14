@@ -4,6 +4,7 @@
   & > h3 {
     font-size: 1rem;
     margin: 0;
+    color: #637983;
   }
 
   & > .graph-outer {
@@ -19,8 +20,8 @@
       cursor: pointer;
       background: none;
       border: none;
-      color: var(--dark);
-      opacity: 0.5;
+      color: #637983;
+      opacity: 0.8;
       width: 24px;
       height: 24px;
       position: absolute;

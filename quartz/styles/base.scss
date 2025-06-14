@@ -17,7 +17,7 @@ body {
   background-color: #fdf6e3;
   font-family: var(--bodyFont);
   color: #647a83;
-  font-size: 1.15rem;
+  font-size: 1.05rem;
   line-height: 1.5;
   max-width: 100%;
 }
@@ -45,16 +45,20 @@ ul {
 p,
 ul,
 text,
-a,
 tr,
 td,
+article {
+  color: #637983;
+}
+
+a,
 li,
 ol,
 ul,
 .katex,
 .math {
-  color: #333333;
-  fill: #333333;
+  color: #637983;
+  fill: #637983;
   hyphens: auto;
   font-size: 1.05rem;
 }
@@ -424,7 +428,14 @@ h6 {
 // typography improvements - Obsidian/MkDocs スタイル
 // メインコンテンツ内の見出しにのみスタイルを適用
 article {
-  h1, h1.publish-article-heading {
+  color: #637983;
+  
+  p, li {
+    font-size: 1.05rem;
+  }
+  
+  // .article-titleクラスが付いていない通常のh1にのみ適用
+  h1:not(.article-title), h1.publish-article-heading {
     font-size: 1.6rem;
     line-height: 1.9rem;
     margin-top: 4.5rem;
