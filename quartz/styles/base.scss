@@ -20,6 +20,7 @@ body {
   font-size: 1.05rem;
   line-height: 1.5;
   max-width: 100%;
+  padding-top: 0; /* 上部のパディングを削除 */
 }
 
 /* 本文・リスト・テーブルのフォントサイズを統一 */
@@ -218,6 +219,7 @@ a {
     column-gap: #{map.get($desktopGrid, columnGap)};
     row-gap: #{map.get($desktopGrid, rowGap)};
     grid-template-areas: #{map.get($desktopGrid, templateAreas)};
+    padding-top: 0.1rem; // 上部のパディングをさらに減らす
 
     @media all and ($tablet) {
       grid-template-columns: #{map.get($tabletGrid, templateColumns)};

@@ -44,8 +44,8 @@ PageTitle.css = `
 .logo-img {
   height: auto;
   width: auto;
-  max-width: 400px;
-  max-height: 120px;
+  max-width: 500px;
+  max-height: 150px;
   object-fit: contain;
 }
 
