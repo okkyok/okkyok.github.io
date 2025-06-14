@@ -9,7 +9,7 @@ import * as Component from "./quartz/components/index"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "愛をもって、人生を楽しみ尽くす",
+    pageTitle: "Loventia",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
