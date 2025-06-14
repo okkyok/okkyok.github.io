@@ -28,7 +28,7 @@ PageTitle.css = `
 }
 
 .page-title {
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   margin: 0;
   font-family: var(--titleFont);
   color: #637983; /* テキストカラーを #637983 に設定 */

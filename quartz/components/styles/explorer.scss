@@ -50,8 +50,8 @@
     top: 0;
     background-color: #fdf6e3;
     z-index: 10;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
+    padding-top: 0rem;
+    padding-bottom: 0rem;
   }
   &.collapsed {
     flex: 0 1 1.2rem;
@@ -171,7 +171,7 @@ button.desktop-explorer {
   .explorer-scrollable {
     overflow-y: auto;
     max-height: calc(100% - 2.5rem);
-    padding-right: 0.5rem;
+    padding-right: 0.0rem;
     box-sizing: border-box;
     scrollbar-width: none; /* Firefox用 */
     -ms-overflow-style: none; /* IE/Edge用 */
