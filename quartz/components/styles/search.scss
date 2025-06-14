@@ -3,6 +3,7 @@
 .search {
   min-width: fit-content;
   max-width: 14rem;
+  margin-bottom: 0; /* 下側の余白を0に設定 */
   @media all and ($mobile) {
     flex-grow: 0.3;
   }

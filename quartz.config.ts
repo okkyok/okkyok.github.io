@@ -18,7 +18,7 @@ const config: QuartzConfig = {
     },
     locale: "ja-JP",
     baseUrl: "okkylife.com",  // 独自ドメインを指定（https:// は含めない）
-    ignorePatterns: ["private", "templates", ".obsidian", "Notes"],  // 無視するファイル・ディレクトリ
+    ignorePatterns: ["private", "templates", ".obsidian"],  // 無視するファイル・ディレクトリ
     defaultDateType: "modified",
     theme: {
       fontOrigin: "googleFonts",
@@ -54,6 +54,7 @@ const config: QuartzConfig = {
       },
     },
   },
+
   plugins: {
     transformers: [
       Plugin.FrontMatter(),

@@ -193,12 +193,22 @@ async function setupExplorer(currentSlug: FullSlug) {
 
     // Get folder paths for state management
     const folderPaths = trie.getFolderPaths()
+    
+    // 現在のページのパスを取得
+    const currentPath = currentSlug.replace(/\/$/, "").split("/")
+    const currentPathParts = currentPath.slice(0, -1) // 最後のファイル名を除く
+    
     currentExplorerState = folderPaths.map((path) => {
       const previousState = oldIndex.get(path)
+      
+      // 現在のページの親フォルダかチェック
+      const isParentFolder = currentPathParts.length > 0 && path.startsWith(currentPathParts.join("/"))
+      
       return {
         path,
         collapsed:
-          previousState === undefined ? opts.folderDefaultState === "collapsed" : previousState,
+          isParentFolder ? false : // 親フォルダは常に開く
+          (previousState === undefined ? opts.folderDefaultState === "collapsed" : previousState),
       }
     })
 

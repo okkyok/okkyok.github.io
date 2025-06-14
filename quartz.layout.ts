@@ -35,7 +35,19 @@ export const defaultContentPageLayout: PageLayout = {
         }
       ],
     }),
-    Component.Explorer(),
+    Component.Explorer({
+      filterFn: (node) => {
+        // Termsフォルダとその中のファイルを非表示にする
+        return (
+          // ルートのTermsフォルダを非表示にする
+          node.slugSegment !== "Terms" && 
+          // Terms/に始まるパスを非表示にする
+          !node.slug.startsWith("Terms/") &&
+          // 任意の階層にあるTermsフォルダを非表示にする
+          !node.slug.includes("/Terms/")
+        )
+      }
+    }),
   ],
   right: [
     Component.DesktopOnly(Component.TableOfContents()),
@@ -56,7 +68,19 @@ export const defaultListPageLayout: PageLayout = {
         }
       ],
     }),
-    Component.Explorer(),
+    Component.Explorer({
+      filterFn: (node) => {
+        // Termsフォルダとその中のファイルを非表示にする
+        return (
+          // ルートのTermsフォルダを非表示にする
+          node.slugSegment !== "Terms" && 
+          // Terms/に始まるパスを非表示にする
+          !node.slug.startsWith("Terms/") &&
+          // 任意の階層にあるTermsフォルダを非表示にする
+          !node.slug.includes("/Terms/")
+        )
+      }
+    }),
   ],
   right: [],
 }

@@ -37,8 +37,19 @@
   }
   margin-top: 0;
   padding-top: 0;
+  margin-bottom: 0;
   min-height: 1.2rem;
   flex: 0 1 auto;
+  
+  /* ナビゲーションのヘッダー部分を固定 */
+  & > button.desktop-explorer {
+    position: sticky;
+    top: 0;
+    background-color: #fdf6e3;
+    z-index: 10;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
   &.collapsed {
     flex: 0 1 1.2rem;
     & .fold {
@@ -137,7 +148,8 @@ button.desktop-explorer {
 
 .explorer-content {
   list-style: none;
-  overflow: hidden;
+  overflow-y: auto; /* スクロール可能に変更 */
+  max-height: calc(100vh - 100px); /* コンテンツの最大高さを設定 */
   margin-top: 0;
   scrollbar-width: none; /* Firefox */
   -ms-overflow-style: none; /* IE and Edge */
