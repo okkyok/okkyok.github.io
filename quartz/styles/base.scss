@@ -118,6 +118,7 @@ a {
   &.internal {
     text-decoration: none;
     background-color: transparent;
+    font-weight: var(--regular);
     padding: 0;
     border-radius: 0;
     line-height: 1.4rem;
