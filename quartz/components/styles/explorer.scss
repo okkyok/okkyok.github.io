@@ -108,7 +108,7 @@ button.desktop-explorer {
   align-items: center;
 
   & h2 {
-    font-size: 1rem;
+    font-size: 0.9rem;
     display: inline-block;
     margin: 0;
     color: #637983;
@@ -127,7 +127,7 @@ button.desktop-explorer {
     align-items: center;
 
     & h2 {
-      font-size: 1rem;
+      font-size: 0.9rem;
       display: inline-block;
       margin: 0;
       color: #637983;
@@ -138,7 +138,7 @@ button.desktop-explorer {
 .explorer-content {
   list-style: none;
   overflow: hidden;
-  margin-top: 0.5rem;
+  margin-top: 0;
   scrollbar-width: none; /* Firefox */
   -ms-overflow-style: none; /* IE and Edge */
   &::-webkit-scrollbar {
@@ -152,14 +152,14 @@ button.desktop-explorer {
     overscroll-behavior: contain;
 
     & li {
-      margin-bottom: 0.7rem;
+      margin-bottom: 0.4rem;
       
       & > a {
         color: #637983 !important;
         opacity: 0.95;
         pointer-events: all;
-        font-size: 0.87rem !important;
-        line-height: 1.3rem !important;
+        font-size: 0.85rem !important;
+        line-height: 1.15rem !important;
         max-width: 90%;
         display: inline-block;
         word-break: break-word;
@@ -206,9 +206,9 @@ button.desktop-explorer {
   & div > a {
     color: #7a8c91;
     font-family: var(--headerFont);
-    font-size: 0.87rem;
+    font-size: 0.85rem;
     font-weight: $semiBoldWeight;
-    line-height: 1.3rem;
+    line-height: 1.15rem;
     display: inline-block;
     max-width: 100%;
     word-break: break-word;
@@ -232,12 +232,12 @@ button.desktop-explorer {
     font-family: var(--headerFont);
 
     & span {
-      font-size: 0.87rem;
+      font-size: 0.85rem;
       display: inline-block;
       color: #7a8c91;
       font-weight: $semiBoldWeight;
       margin: 0;
-      line-height: 1.3rem;
+      line-height: 1.15rem;
       pointer-events: none;
       max-width: 100%;
       word-break: break-word;

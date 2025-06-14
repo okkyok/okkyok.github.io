@@ -13,7 +13,7 @@
     border-radius: 4px;
     font-family: inherit;
     font-size: inherit;
-    height: 1.75rem; /* 高さを少し小さく */
+    height: 1.5rem; /* 高さをさらに小さく */
     padding: 0;
     display: flex;
     align-items: center;
@@ -27,12 +27,13 @@
       display: inline;
       padding: 0 0 0 0.5rem; /* 左側に0.5remの空白を追加 */
       color: #637983; /* 検索窓の枠と同じ色に設定 */
+      font-size: 0.9rem; /* テキストサイズを小さく */
     }
 
     & svg {
       cursor: pointer;
-      width: 18px;
-      min-width: 18px;
+      width: 16px;
+      min-width: 16px;
       margin: 0 0.5rem;
 
       .search-path {
