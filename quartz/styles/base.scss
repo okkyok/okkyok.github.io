@@ -247,7 +247,7 @@ a {
       gap: 2rem;
       top: 0;
       box-sizing: border-box;
-      padding: $topSpacing 1rem 1rem 1rem; /* 左の余白を2remから1remに半分にしました */
+      padding: 0 1rem 1rem 1.5rem; /* 左側の余白を1.5remに増やし、上側は0のまま */
       display: flex;
       height: 100vh;
       position: sticky;
@@ -319,6 +319,7 @@ a {
     & .center > article {
       grid-area: grid-center;
       padding-left: 1.5rem; /* 記事コンテンツの左側に余白を追加 */
+      padding-right: 1.5rem; /* 記事コンテンツの右側に余白を追加 */
     }
 
     & footer {
@@ -444,8 +445,8 @@ article {
   // .article-titleクラスが付いていない通常のh1にのみ適用
   h1:not(.article-title), h1.publish-article-heading {
     font-size: 1.6rem;
-    line-height: 1.9rem;
-    margin-top: 4.5rem;
+    line-height: 1.8rem;
+    margin-top: 4rem;
     margin-bottom: 1.5rem;
     font-weight: 700;
     position: relative;
@@ -502,9 +503,9 @@ article {
   }
 
   h2, h2.publish-article-heading {
-    font-size: 1.4rem;
-    line-height: 1.5rem;
-    margin-top: 3rem;
+    font-size: 1.3rem;
+    line-height: 1.4rem;
+    margin-top: 2rem;
     margin-bottom: 1rem;
     color: #29a198;
     font-weight: 600;
@@ -512,7 +513,7 @@ article {
     position: relative;
     padding: .5em .7em;
     border-left: 11px solid #29a198;
-    border-bottom: 3px solid #29a198;
+    border-bottom: 2px solid #94cac2;
     background-color: #ecf4ec;
     border-radius: 6px;
     display: flex;

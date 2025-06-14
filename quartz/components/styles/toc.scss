@@ -7,10 +7,10 @@
   min-height: 1.4rem;
   flex: 0 0.5 auto;
   margin-top: 2rem; /* 目次の上側に余白を追加 */
-  margin-left: 1.5rem; /* 目次の左側に余白を追加 */
-  margin-right: 1rem; /* 目次の右側に余白を追加 */
+  margin-left: 1rem; /* 目次の左側の余白を0.5rem減少 */
+  margin-right: 1.5rem; /* 目次の右側の余白はそのまま */
   position: sticky; /* 固定表示に設定 */
-  top: 2rem; /* 上部からの位置 */
+  top: 2.5rem; /* 上部からの位置 */
   max-height: calc(100vh - 4rem); /* 画面高さから余白を引いた高さ */
   &:has(button.toc-header.collapsed) {
     flex: 0 1 1.4rem;
@@ -88,7 +88,7 @@ ul.toc-content.overflow {
       
       &.in-view {
         opacity: 1;
-        color: #29a198; /* より目立つ色に変更 */
+        color: #93c9c2; /* ハイライト色を#93c9c2に変更 */
         font-weight: 600; /* より太字に */
         position: relative;
         
@@ -102,7 +102,7 @@ ul.toc-content.overflow {
           width: 5px;
           height: 5px;
           border-radius: 50%;
-          background-color: #29a198;
+          background-color: #93c9c2;
         }
       }
     }
