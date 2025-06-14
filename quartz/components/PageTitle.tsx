@@ -9,7 +9,7 @@ const PageTitle: QuartzComponent = ({ fileData, cfg, displayClass }: QuartzCompo
   return (
     <div class="page-title-container">
       <a href="/" class="logo">
-        <img src="/static/Loventi_logo.webp" alt="Loventia" class="logo-img" />
+        <img src="/static/Loventia_logo.webp" alt="Loventia" class="logo-img" />
       </a>
       <h2 class={classNames(displayClass, "page-title")}>
         <a href={baseDir} class="title-link">{title}</a>
