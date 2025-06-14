@@ -37,14 +37,14 @@ export const defaultContentPageLayout: PageLayout = {
     }),
     Component.Explorer({
       filterFn: (node) => {
-        // Termsフォルダとその中のファイルを非表示にする
+        // Notesフォルダとその中のファイルを非表示にする
         return (
-          // ルートのTermsフォルダを非表示にする
-          node.slugSegment !== "Terms" && 
-          // Terms/に始まるパスを非表示にする
-          !node.slug.startsWith("Terms/") &&
-          // 任意の階層にあるTermsフォルダを非表示にする
-          !node.slug.includes("/Terms/")
+          // ルートのNotesフォルダを非表示にする
+          node.slugSegment !== "Notes" && 
+          // Notes/に始まるパスを非表示にする
+          !node.slug.startsWith("Notes/") &&
+          // 任意の階層にあるNotesフォルダを非表示にする
+          !node.slug.includes("/Notes/")
         )
       }
     }),
@@ -69,14 +69,14 @@ export const defaultListPageLayout: PageLayout = {
     }),
     Component.Explorer({
       filterFn: (node) => {
-        // Termsフォルダとその中のファイルを非表示にする
+        // Notesフォルダとその中のファイルを非表示にする
         return (
-          // ルートのTermsフォルダを非表示にする
-          node.slugSegment !== "Terms" && 
-          // Terms/に始まるパスを非表示にする
-          !node.slug.startsWith("Terms/") &&
-          // 任意の階層にあるTermsフォルダを非表示にする
-          !node.slug.includes("/Terms/")
+          // ルートのNotesフォルダを非表示にする
+          node.slugSegment !== "Notes" && 
+          // Notes/に始まるパスを非表示にする
+          !node.slug.startsWith("Notes/") &&
+          // 任意の階層にあるNotesフォルダを非表示にする
+          !node.slug.includes("/Notes/")
         )
       }
     }),
