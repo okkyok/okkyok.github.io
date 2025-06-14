@@ -65,3 +65,32 @@ body footer {
     }
   }
 }
+
+/* 左サイドバーのフッターを非表示にする */
+.sidebar-container .explorer ~ .footer {
+  display: none !important;
+}
+
+/* 代替案1: より具体的なセレクタ */
+body > div.sidebar-container .explorer + .footer {
+  display: none !important;
+}
+
+// custom.scss に追加
+.container {
+  // デスクトップ表示時のみ適用
+  @media (min-width: 1200px) {  // $desktop のブレイクポイントに合わせて調整
+    grid-template-areas: 
+      "header header header"
+      "left middle right"
+      "left middle right";  // フッターエリアを削除
+
+    // フッターを右カラム内に配置
+    footer {
+      grid-area: right;
+      align-self: end;
+      margin: 0;
+      padding: 1rem 0;
+    }
+  }
+}

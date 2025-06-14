@@ -1,7 +1,10 @@
 footer {
   text-align: left;
-  margin-bottom: 4rem;
+  margin: 0 1.5rem 1rem 1rem; /* 右マージンを1.5remに合わせる */
   opacity: 0.7;
+  width: auto; /* 幅を自動調整 */
+  max-width: 300px; /* 右サイドパネルと同じ最大幅に設定 */
+  margin-left: auto; /* 右寄せ */
 
   & ul {
     list-style: none;
