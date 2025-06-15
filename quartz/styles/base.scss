@@ -35,7 +35,7 @@ body {
   background-color: #fdf6e3;
   font-family: var(--bodyFont);
   color: #647a83;
-  font-size: 1rem !important; /* ベースフォントサイズを1remに固定 */
+  font-size: 0.95rem; /* ベースフォントサイズを1remに設定 */
   line-height: 1.6;
   max-width: 100%;
   padding-top: 0;
@@ -92,7 +92,7 @@ ul,
   color: #637983;
   fill: #637983;
   hyphens: auto;
-  font-size: 1.05rem;
+  font-size: 1.00rem;
 }
 
 p,
@@ -487,7 +487,8 @@ h6 {
 // typography improvements - Obsidian/MkDocs スタイル
 // メインコンテンツ内の見出しにのみスタイルを適用
 article {
-  color: #637983;
+  color: #637983; /* 少し暗い色に変更 */
+  font-size: 0.9375rem !important; /* 15pxに固定 */
   
   // .article-titleクラスが付いていない通常のh1にのみ適用
   h1:not(.article-title), h1.publish-article-heading {
