@@ -1,11 +1,12 @@
 ---
-created: '2025-05-01T23:36:00.000Z'
-updated: '2025-05-06T02:52:00.000Z'
-Slug: ''
-Category: ['開発｜Development']
-Published: 'false'
+Category:
+- 開発｜Development
 Date: ''
-title: 'WraptasからNext.js+Vercelに乗り換え'
+Published: 'false'
+Slug: ''
+created: '2025-05-01T23:36:00.000Z'
+title: 💻📘WraptasからNext.js+Vercelに乗り換え
+updated: '2025-05-06T02:52:00.000Z'
 ---
 
 [Notionページ](https://www.notion.so/Wraptas-Next-js-Vercel-1e694d022bbd808fab1bc17dbf2f8293)
@@ -17,8 +18,3 @@ title: 'WraptasからNext.js+Vercelに乗り換え'
 
 
 ということでAIに尋ねてみたところ、Next.js＋Vercelでできそうだったので、そのことについて書いてみる。
-
-
-
-
-

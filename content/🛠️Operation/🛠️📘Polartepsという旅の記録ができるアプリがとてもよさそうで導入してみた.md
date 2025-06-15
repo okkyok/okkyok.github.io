@@ -1,11 +1,12 @@
 ---
-created: '2024-11-14'
-updated: '2025-05-01T13:21:00.000Z'
-Slug: '2411-plarsteps'
-Category: ['運用｜Operatinon']
-Published: 'true'
+Category:
+- 運用｜Operatinon
 Date: '2024-11-14'
-title: 'Polartepsという旅の記録ができるアプリがとてもよさそうで導入してみた'
+Published: 'true'
+Slug: 2411-plarsteps
+created: '2024-11-14'
+title: 🛠️📘Polartepsという旅の記録ができるアプリがとてもよさそうで導入してみた
+updated: '2025-05-01T13:21:00.000Z'
 ---
 
 [Notionページ](https://www.notion.so/Polarteps-13694d022bbd80339194dd2674474258)
@@ -79,8 +80,3 @@ SNSとしての機能も搭載されており、プライベートモードや�
 ## 最後に
 
 海外旅行、特に長期旅する人は、ぜひ出発前にダウンロードして旅に出るのをすすめたい。
-
-
-
-
-

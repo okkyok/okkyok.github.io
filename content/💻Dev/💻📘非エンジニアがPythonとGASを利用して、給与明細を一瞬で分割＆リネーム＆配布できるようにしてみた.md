@@ -1,11 +1,12 @@
 ---
-created: '2024-11-02'
-updated: '2025-05-06T02:52:00.000Z'
-Slug: '2411-pdf-cutting-rename'
-Category: ['開発｜Development']
-Published: 'true'
+Category:
+- 開発｜Development
 Date: '2024-11-02'
-title: '非エンジニアがPythonとGASを利用して、給与明細を一瞬で分割＆リネーム＆配布できるようにしてみた'
+Published: 'true'
+Slug: 2411-pdf-cutting-rename
+created: '2024-11-02'
+title: 💻📘非エンジニアがPythonとGASを利用して、給与明細を一瞬で分割＆リネーム＆配布できるようにしてみた
+updated: '2025-05-06T02:52:00.000Z'
 ---
 
 [Notionページ](https://www.notion.so/Python-GAS-13094d022bbd8052a363edc11ded1eeb)

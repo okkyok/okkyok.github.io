@@ -1,1 +1,5 @@
+---
+title: Obsidian Published
+---
+
 [[Obsidian]]で作成したノートをweb上で公開するための有料の[[プラグイン]]。

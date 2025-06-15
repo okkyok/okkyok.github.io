@@ -1,12 +1,12 @@
 ---
-created: 2025-05-01T23:37:00.000Z
-updated: 2025-05-06T02:52:00.000Z
-Slug: ""
 Category:
-  - 開発｜Development
-Published: "false"
-Date: ""
-title: Windsurfを導入したら、全くコード書けないけど、プログラミングが楽しくなった
+- 開発｜Development
+Date: ''
+Published: 'false'
+Slug: ''
+created: 2025-05-01 23:37:00+00:00
+title: 💻📘Windsurfを導入したら、全くコード書けないけど、プログラミングが楽しくなった
+updated: 2025-05-06 02:52:00+00:00
 ---
 
 [Notionページ](https://www.notion.so/Windsurf-1e694d022bbd80f691bfcde558438176)
@@ -70,4 +70,3 @@ title: Windsurfを導入したら、全くコード書けないけど、プロ�
 
 
 なお、上記リンクから登録頂けると、紹介特典で双方250クレジット分もらえるので、ぜひよければそちらから登録くださいな！
-

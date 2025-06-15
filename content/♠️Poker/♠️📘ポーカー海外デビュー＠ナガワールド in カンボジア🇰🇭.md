@@ -1,11 +1,12 @@
 ---
-created: '2024-04-14'
-updated: '2025-05-01T13:29:00.000Z'
-Slug: '2404-pk-nagaworld'
-Category: ['ポーカー｜Poker']
-Published: 'true'
+Category:
+- ポーカー｜Poker
 Date: '2024-04-14'
-title: 'ポーカー海外デビュー＠ナガワールド in カンボジア'
+Published: 'true'
+Slug: 2404-pk-nagaworld
+created: '2024-04-14'
+title: ♠️📘ポーカー海外デビュー＠ナガワールド in カンボジア🇰🇭
+updated: '2025-05-01T13:29:00.000Z'
 ---
 
 [Notionページ](https://www.notion.so/in-a2867492a52f484187bf3d84cad1d788)
@@ -248,8 +249,3 @@ Nagawarld 1
 日程さえ許せばもっといたかった！
 
 早く次ポーカーできる国行きたい！！
-
-
-
-
-

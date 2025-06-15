@@ -1,11 +1,12 @@
 ---
-created: '2023-10-25'
-updated: '2025-05-01T13:36:00.000Z'
-Slug: '2310-tr-internet'
-Category: ['旅｜Travel']
-Published: 'true'
+Category:
+- 旅｜Travel
 Date: '2023-10-25'
-title: '長期旅行の海外インターネットは、eSIM一択'
+Published: 'true'
+Slug: 2310-tr-internet
+created: '2023-10-25'
+title: ✈️📘長期旅行の海外インターネットは、eSIM一択
+updated: '2025-05-01T13:36:00.000Z'
 ---
 
 [Notionページ](https://www.notion.so/eSIM-cf61cc3c06434357848727511db3bcb7)
@@ -150,8 +151,3 @@ Holafryの料金プランなど見てすでに魅力的に映ったが、いく�
 
 
 ※このサイトはアフィリエイト広告（Amazonアソシエイト含む）を掲載しています。
-
-
-
-
-

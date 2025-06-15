@@ -1,11 +1,12 @@
 ---
-created: '2024-11-01'
-updated: '2025-05-06T02:52:00.000Z'
-Slug: '2411-GAS-LINEbot'
-Category: ['開発｜Development']
-Published: 'true'
+Category:
+- 開発｜Development
 Date: '2024-11-01'
-title: '非エンジニアがGASを利用したLINEbotを作って、社内業務の効率化をしてみた'
+Published: 'true'
+Slug: 2411-GAS-LINEbot
+created: '2024-11-01'
+title: 💻📘非エンジニアがGASを利用したLINEbotを作って、社内業務の効率化をしてみた
+updated: '2025-05-06T02:52:00.000Z'
 ---
 
 [Notionページ](https://www.notion.so/GAS-LINEbot-13094d022bbd80deb8b3c76e99a38b71)
@@ -69,14 +70,3 @@ title: '非エンジニアがGASを利用したLINEbotを作って、社内業�
 AIが日々賢くなってくれて、ついにかなりしっかりとしたコードまで書いてくれるようになって実現できた。
 
 今後もAIを活用してプログラミングを行い、業務効率化をしていきたい。
-
-
-
-
-
-
-
-
-
-
-

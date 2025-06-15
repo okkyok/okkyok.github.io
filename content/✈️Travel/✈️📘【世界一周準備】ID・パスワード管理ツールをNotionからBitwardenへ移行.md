@@ -1,11 +1,12 @@
 ---
-created: '2024-02-06'
-updated: '2025-05-01T13:31:00.000Z'
-Slug: '2402-tr-idpass'
-Category: ['旅｜Travel']
-Published: 'true'
+Category:
+- 旅｜Travel
 Date: '2024-02-06'
-title: '【世界一周準備】ID・パスワード管理ツールをNotionからBitwardenへ移行'
+Published: 'true'
+Slug: 2402-tr-idpass
+created: '2024-02-06'
+title: ✈️📘【世界一周準備】ID・パスワード管理ツールをNotionからBitwardenへ移行
+updated: '2025-05-01T13:31:00.000Z'
 ---
 
 [Notionページ](https://www.notion.so/ID-Notion-Bitwarden-8a1e4eb7989e44e0bb44263175cbc037)
@@ -129,8 +130,3 @@ Bitwardenの素晴らしさは、こちらのブログが分かりやすくま�
 
 
 デバイスの 紛失や何か不測の事態に際にスマホを失うことも考慮に入れて、こういったセキュリティ関連のことは、あらかじめ準備しておきたい。
-
-
-
-
-

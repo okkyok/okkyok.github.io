@@ -1,3 +1,7 @@
+---
+title: Obsidian
+---
+
 https://obsidian.md/
 
 ローカル環境で動作する、[[マークダウン形式]]のテキストエディタ。

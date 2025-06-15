@@ -1,11 +1,12 @@
 ---
-created: '2024-06-28'
-updated: '2025-05-01T13:29:00.000Z'
-Slug: '2406-tr-camping-as-living'
-Category: ['旅｜Travel']
-Published: 'true'
+Category:
+- 旅｜Travel
 Date: '2024-06-28'
-title: '本気で暮らしたいと思ったキャンプ場、キルギスのトン村 Beltam Yrut Camp が最高だった！'
+Published: 'true'
+Slug: 2406-tr-camping-as-living
+created: '2024-06-28'
+title: ✈️📘本気で暮らしたいと思ったキャンプ場、キルギスのトン村 Beltam Yrut Camp が最高だった！
+updated: '2025-05-01T13:29:00.000Z'
 ---
 
 [Notionページ](https://www.notion.so/Beltam-Yrut-Camp-0ddb44b83bcd4f6ea92556e9d79a2d16)
@@ -216,8 +217,3 @@ Beltam Yrut Camp に自前のテントを持って乗り込み、当初２泊の
 
 
 日本でも、こんな条件を満たす場所を見つけたいものだ。
-
-
-
-
-

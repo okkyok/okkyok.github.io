@@ -1,11 +1,12 @@
 ---
-created: '2024-01-03'
-updated: '2025-05-01T13:32:00.000Z'
-Slug: '2401-tr-sub-bag'
-Category: ['旅｜Travel']
-Published: 'true'
+Category:
+- 旅｜Travel
 Date: '2024-01-03'
-title: '【世界一周持ち物】サブバッグ比較検討＆フルムーン（Mystery Ranch購入レビュー'
+Published: 'true'
+Slug: 2401-tr-sub-bag
+created: '2024-01-03'
+title: ✈️📘【世界一周持ち物】サブバッグ比較検討＆フルムーン（Mystery Ranch購入レビュー
+updated: '2025-05-01T13:32:00.000Z'
 ---
 
 [Notionページ](https://www.notion.so/Mystery-Ranch-d092411f1cac492d88c6dd2f11041b17)
@@ -158,4 +159,3 @@ webで情報を取っているだけではわからない、色んな気付き�
 
 
 撮影していない時で、特に危なそうでない場所ではかなり有力な背負い方になりそうだ。
-

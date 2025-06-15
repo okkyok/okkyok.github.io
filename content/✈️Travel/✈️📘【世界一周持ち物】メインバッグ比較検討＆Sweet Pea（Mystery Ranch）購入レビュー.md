@@ -1,11 +1,12 @@
 ---
-created: '2024-01-05'
-updated: '2025-05-01T13:31:00.000Z'
-Slug: '2401-tr-main-bag'
-Category: ['旅｜Travel']
-Published: 'true'
+Category:
+- 旅｜Travel
 Date: '2024-01-05'
-title: '【世界一周持ち物】メインバッグ比較検討＆Sweet Pea（Mystery Ranch）購入レビュー'
+Published: 'true'
+Slug: 2401-tr-main-bag
+created: '2024-01-05'
+title: ✈️📘【世界一周持ち物】メインバッグ比較検討＆Sweet Pea（Mystery Ranch）購入レビュー
+updated: '2025-05-01T13:31:00.000Z'
 ---
 
 [Notionページ](https://www.notion.so/Sweet-Pea-Mystery-Ranch-de4f849e58c94463944217207d408995)
@@ -188,10 +189,3 @@ title: '【世界一周持ち物】メインバッグ比較検討＆Sweet Pea（
 上記の点で、[ローリングトランスポーター 40（Osprey）](http://tinyurl.com/yv339obx)は優れていると思い購入した。
 
 サイズ、LCCサイズギリギリいっぱいの設計だ。
-
-
-
-
-
-
-

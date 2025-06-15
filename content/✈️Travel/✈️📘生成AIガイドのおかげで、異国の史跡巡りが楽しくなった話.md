@@ -1,11 +1,12 @@
 ---
-created: '2024-07-25'
-updated: '2025-05-01T13:28:00.000Z'
-Slug: '2407-ai-guide'
-Category: ['旅｜Travel']
-Published: 'true'
+Category:
+- 旅｜Travel
 Date: '2024-07-25'
-title: '生成AIガイドのおかげで、異国の史跡巡りが楽しくなった話'
+Published: 'true'
+Slug: 2407-ai-guide
+created: '2024-07-25'
+title: ✈️📘生成AIガイドのおかげで、異国の史跡巡りが楽しくなった話
+updated: '2025-05-01T13:28:00.000Z'
 ---
 
 [Notionページ](https://www.notion.so/AI-4c7988a6ca634b2db5f4454e18369a76)
@@ -166,8 +167,3 @@ AIガイドとは、昨今話題に欠くことのないChatGPTや、Claude、Ge
 こんな史跡巡りの体験が変わるのなら、もっと早く使っておけば良かった。
 
 今後史跡巡りをする際は、積極的に AI ガイドを活用して楽しんでいこうと思う。
-
-
-
-
-

@@ -1,11 +1,12 @@
 ---
-created: '2023-11-10'
-updated: '2025-05-01T13:33:00.000Z'
-Slug: '2311-tr-action-camera'
-Category: ['旅｜Travel']
-Published: 'true'
+Category:
+- 旅｜Travel
 Date: '2023-11-10'
-title: '【世界一周持ち物】アクションカメラ比較検討＆Osmo Action 4（DJI）購入レビュー'
+Published: 'true'
+Slug: 2311-tr-action-camera
+created: '2023-11-10'
+title: ✈️📘【世界一周持ち物】アクションカメラ比較検討＆Osmo Action 4（DJI）購入レビュー
+updated: '2025-05-01T13:33:00.000Z'
 ---
 
 [Notionページ](https://www.notion.so/Osmo-Action-4-DJI-d59b16ca897141148819462172e97f68)
@@ -217,8 +218,3 @@ Vlog撮影の際には、手放せないアイテムになっている。
 
 
 ※このサイトはアフィリエイト広告（Amazonアソシエイト含む）を掲載しています。
-
-
-
-
-
