@@ -1,9 +1,22 @@
 .content-meta {
-  margin-top: 0;
-  color: #637983;
+  margin-top: 0.3rem; /* タイトルとの間隔を広げる */
+  color: #7a8c91; /* 色を少し薄く */
   text-align: right; /* 右揃えに設定 */
   padding-left: 1.5rem; /* 左側に余白を追加 */
   padding-right: 1.5rem; /* 右側に余白を追加 */
+  font-size: 0.9rem; /* フォントサイズを小さく */
+  
+  /* 日付と読了時間のスタイル */
+  .meta {
+    font-size: 0.8rem;
+    color: #7a8c91;
+    
+    /* 読了時間のスタイル */
+    .reading-time {
+      margin-left: 0.5rem;
+      color: #7a8c91;
+    }
+  }
 
   &[show-comma="true"] {
     > *:not(:last-child) {
