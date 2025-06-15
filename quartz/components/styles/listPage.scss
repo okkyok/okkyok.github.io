@@ -6,14 +6,41 @@ ul.section-ul {
   padding-left: 0;
 }
 
+.page-listing {
+  margin-top: 1em;
+  
+  /* フォルダ内のページ数表示 */
+  & > p {
+    margin: 0 0 1em 1.5rem; /* 左に1.5remの余白を追加 */
+    color: #637983; /* 日付と同じ色に合わせる */
+    font-size: 0.95rem;
+  }
+}
+
 li.section-li {
   margin-bottom: 0em; /* フォルダ間の上下の間隔を狭く */
 
   & > .section {
     display: grid;
-    grid-template-columns: fit-content(8em) 3fr 1fr;
+    grid-template-columns: 10em 1fr auto; /* 日付の幅を10emで固定し、残りをタイトルが使用 */
+    align-items: flex-start; /* 上揃えにする */
+    gap: 0.5rem; /* カラム間の余白を調整 */
+
+    /* 日付のスタイル */
+    & > .meta {
+      width: 10em; /* 固定幅を設定 */
+      flex-shrink: 0; /* 縮小を防ぐ */
+      margin: 0; /* デフォルトのマージンをリセット */
+    }
+
+    /* タイトル部分 */
+    & > .desc {
+      min-width: 0; /* 折り返しを有効にする */
+    }
 
     @media all and ($mobile) {
+      grid-template-columns: 10em 1fr; /* モバイルでも日付の幅を固定 */
+      
       & > .tags {
         display: none;
       }
@@ -30,9 +57,16 @@ li.section-li {
     }
 
     & .meta {
-      margin: 0 1em 0 0;
-      color: #637983; /* 年月日の表示色を#637983に変更 */
+      margin: 0 1em 0 1.5rem; /* 左側に1.5remの余白を追加 */
+      color: #637983; /* 年月日の表示色を#637983に設定 */
       opacity: 1; /* 不透明度を解除して色をそのまま表示 */
+      padding-left: 0; /* パディングをリセット */
+    }
+    
+    /* 日付のスタイルを調整 */
+    & .meta .date {
+      display: block;
+      margin-bottom: 0.5em;
     }
   }
 }

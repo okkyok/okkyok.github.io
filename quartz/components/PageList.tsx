@@ -105,22 +105,29 @@ export const PageList: QuartzComponent = ({ cfg, fileData, allFiles, limit, sort
 
 PageList.css = `
 .section h3 {
-  margin: 0;
+  margin: 0 0 0.5rem 1.5rem; /* 左側に1.5remの余白を追加 */
   font-size: 1.05rem;
 }
 
 .section > .meta {
-  margin: 0;
+  margin: 0 0 0 1.5rem; /* 左側に1.5remの余白を追加 */
   font-size: 1.05rem;
   opacity: 0.6;
 }
 
 .section > .desc > p {
-  margin: 0;
+  margin: 0 0 0 1.5rem; /* 左側に1.5remの余白を追加 */
   font-size: 1.05rem;
 }
 
 .section > .tags {
-  margin: 0;
+  margin: 0 0 0 1.5rem; /* 左側に1.5remの余薄を追加 */
+}
+
+/* 日付のスタイルを調整 */
+.section .meta .date {
+  display: block;
+  margin-bottom: 0.5rem;
+  padding-left: 1.5rem; /* 日付の左側に余白を追加 */
 }
 `
