@@ -4,6 +4,17 @@ import { Date, getDate } from "./Date"
 import { QuartzComponent, QuartzComponentProps } from "./types"
 import { GlobalConfiguration } from "../cfg"
 
+// ファイルパスからファイル名（拡張子なし）を取得する関数
+const getFilenameFromPath = (path: string): string => {
+  if (!path) return ''
+  // パスから最後のスラッシュ以降を取得
+  const lastSlash = path.lastIndexOf('/')
+  const filename = lastSlash === -1 ? path : path.substring(lastSlash + 1)
+  // 拡張子を削除
+  const dotIndex = filename.lastIndexOf('.')
+  return dotIndex === -1 ? filename : filename.substring(0, dotIndex)
+}
+
 export type SortFn = (f1: QuartzPluginData, f2: QuartzPluginData) => number
 
 export function byDateAndAlphabetical(cfg: GlobalConfiguration): SortFn {
@@ -67,7 +78,7 @@ export const PageList: QuartzComponent = ({ cfg, fileData, allFiles, limit, sort
   return (
     <ul class="section-ul">
       {list.map((page) => {
-        const title = page.frontmatter?.title
+        const title = getFilenameFromPath(page.slug || '')
         const tags = page.frontmatter?.tags ?? []
 
         return (
