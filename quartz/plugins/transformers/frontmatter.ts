@@ -87,7 +87,13 @@ export const FrontMatter: QuartzTransformerPlugin<Partial<Options>> = (userOpts)
               allSlugs.push(...file.data.aliases)
             }
 
-            if (data.permalink != null && data.permalink.toString() !== "") {
+            if (data.Slug != null && data.Slug.toString() !== "") {
+              data.Slug = data.Slug.toString() as FullSlug
+              const aliases = file.data.aliases ?? []
+              aliases.push(data.Slug)
+              file.data.aliases = aliases
+              allSlugs.push(data.Slug)
+            } else if (data.permalink != null && data.permalink.toString() !== "") {
               data.permalink = data.permalink.toString() as FullSlug
               const aliases = file.data.aliases ?? []
               aliases.push(data.permalink)
@@ -137,6 +143,8 @@ declare module "vfile" {
     frontmatter: { [key: string]: unknown } & {
       title: string
     } & Partial<{
+        Slug: string
+        permalink: string
         tags: string[]
         aliases: string[]
         modified: string

@@ -32,6 +32,21 @@ export function isSimpleSlug(s: string): s is SimpleSlug {
   return validStart && !containsForbiddenCharacters(s) && validEnding && !_hasFileExtension(s)
 }
 
+export function toFullSlug(s: string): FullSlug {
+  if (isFullSlug(s)) {
+    return s
+  }
+  // 基本的なバリデーションと変換
+  s = s.trim()
+  if (s.startsWith("/")) {
+    s = s.slice(1)
+  }
+  if (s.endsWith("/")) {
+    s = s.slice(0, -1)
+  }
+  return s as FullSlug
+}
+
 /** Can be found on `href`s but can also be constructed for client-side navigation (e.g. search and graph) */
 export type RelativeURL = SlugLike<"relative">
 export function isRelativeURL(s: string): s is RelativeURL {
