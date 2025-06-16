@@ -32,7 +32,7 @@ SimpleNav.css = `
 .simple-nav a {
   display: block;
   padding: 0.25rem 0;
-  color: #637983;
+  color: #647a83;
   text-decoration: none;
   font-size: 0.95rem;
   transition: color 0.2s ease;

@@ -31,7 +31,7 @@ PageTitle.css = `
   font-size: 1.4rem;
   margin: 0;
   font-family: var(--titleFont);
-  color: #637983; /* テキストカラーを #637983 に設定 */
+  color: #647a83; /* テキストカラーを #647a83 に設定 */
 }
 
 .logo {

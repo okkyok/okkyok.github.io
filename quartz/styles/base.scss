@@ -81,6 +81,7 @@ td,
 article {
   color: #637983;
   font-weight: 500; /* テキストを少し太くする */
+  line-height: 0.95rem; /* 行の高さを0.95remに設定 */
 }
 
 a,
@@ -90,7 +91,7 @@ ul,
 .katex,
 .math {
   color: #637983;
-  fill: #637983;
+  fill: #647a83;
   hyphens: auto;
   font-size: 1.00rem;
 }
@@ -487,7 +488,7 @@ h6 {
 // typography improvements - Obsidian/MkDocs スタイル
 // メインコンテンツ内の見出しにのみスタイルを適用
 article {
-  color: #637983; /* 少し暗い色に変更 */
+  color: #647a83; /* 少し暗い色に変更 */
   font-size: 0.9375rem !important; /* 15pxに固定 */
   
   // .article-titleクラスが付いていない通常のh1にのみ適用

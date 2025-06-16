@@ -12,7 +12,7 @@ ul.section-ul {
   /* フォルダ内のページ数表示 */
   & > p {
     margin: 0 0 1em 1.5rem; /* 左に1.5remの余白を追加 */
-    color: #637983; /* 日付と同じ色に合わせる */
+    color: #647a83; /* 日付と同じ色に合わせる */
     font-size: 0.95rem;
   }
 }
@@ -66,7 +66,7 @@ li.section-li {
 
     & .meta {
       margin: 0 1em 0 1.5rem; /* 左側に1.5remの余白を追加 */
-      color: #637983; /* 年月日の表示色を#637983に設定 */
+      color: #647a83; /* 年月日の表示色を#647a83に設定 */
       opacity: 1; /* 不透明度を解除して色をそのまま表示 */
       padding-left: 0; /* パディングをリセット */
       font-size: 0.95rem;

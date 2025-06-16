@@ -27,7 +27,7 @@
     & > p {
       display: inline;
       padding: 0 0 0 0.5rem; /* 左側に0.5remの空白を追加 */
-      color: #637983; /* 検索窓の枠と同じ色に設定 */
+      color: #647a83; /* 検索索窓の枠と同じ色に設定 */
       font-size: 0.9rem; /* テキストサイズを小さく */
     }
 
@@ -87,7 +87,7 @@
         font-family: var(--bodyFont);
         color: #333333;
         font-size: 1.1em;
-        border: 1px solid #637983; /* 境界線の色を#637983に変更 */
+        border: 1px solid #647a83; /* 境界線の色を#647a83に変更 */
         background-color: #fdf6e3;
 
         &:focus {
