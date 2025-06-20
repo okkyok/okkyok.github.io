@@ -7,6 +7,7 @@ Slug: 2411-GAS-LINEbot
 created: '2024-11-01'
 title: 💻📘非エンジニアがGASを利用したLINEbotを作って、社内業務の効率化をしてみた
 updated: '2025-05-06T02:52:00.000Z'
+url: /2411-GAS-LINEbot
 ---
 
 [Notionページ](https://www.notion.so/GAS-LINEbot-13094d022bbd80deb8b3c76e99a38b71)

@@ -7,6 +7,7 @@ Slug: 2411-plarsteps
 created: '2024-11-14'
 title: 🛠️📘Polartepsという旅の記録ができるアプリがとてもよさそうで導入してみた
 updated: '2025-05-01T13:21:00.000Z'
+url: /2411-plarsteps
 ---
 
 [Notionページ](https://www.notion.so/Polarteps-13694d022bbd80339194dd2674474258)

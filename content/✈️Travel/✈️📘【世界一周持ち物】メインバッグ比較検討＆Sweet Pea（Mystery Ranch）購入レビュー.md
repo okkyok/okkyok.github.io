@@ -7,6 +7,7 @@ Slug: 2401-tr-main-bag
 created: '2024-01-05'
 title: ✈️📘【世界一周持ち物】メインバッグ比較検討＆Sweet Pea（Mystery Ranch）購入レビュー
 updated: '2025-05-01T13:31:00.000Z'
+url: /2401-tr-main-bag
 ---
 
 [Notionページ](https://www.notion.so/Sweet-Pea-Mystery-Ranch-de4f849e58c94463944217207d408995)

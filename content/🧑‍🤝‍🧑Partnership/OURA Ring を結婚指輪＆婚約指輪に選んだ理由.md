@@ -1,11 +1,13 @@
 ---
-created: '2022-03-19'
-updated: '2025-05-01T13:38:00.000Z'
-Slug: '2305-pt-oura-2'
-Category: ['パートナーシップ｜Partnership']
-Published: 'true'
+Category:
+- パートナーシップ｜Partnership
 Date: '2022-03-19'
-title: 'OURA Ring を結婚指輪＆婚約指輪に選んだ理由'
+Published: 'true'
+Slug: 2305-pt-oura-2
+created: '2022-03-19'
+title: OURA Ring を結婚指輪＆婚約指輪に選んだ理由
+updated: '2025-05-01T13:38:00.000Z'
+url: /2305-pt-oura-2
 ---
 
 [Notionページ](https://www.notion.so/OURA-Ring-263edafe50d142b7a3417afa7454ba42)

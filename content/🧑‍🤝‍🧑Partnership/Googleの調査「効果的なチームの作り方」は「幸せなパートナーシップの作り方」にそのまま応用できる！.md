@@ -1,11 +1,13 @@
 ---
-created: '2024-07-09'
-updated: '2025-05-01T13:28:00.000Z'
-Slug: '2407-pt-happy-partnership'
-Category: ['パートナーシップ｜Partnership']
-Published: 'true'
+Category:
+- パートナーシップ｜Partnership
 Date: '2024-07-09'
-title: 'Googleの調査「効果的なチームの作り方」は「幸せなパートナーシップの作り方」にそのまま応用できる！'
+Published: 'true'
+Slug: 2407-pt-happy-partnership
+created: '2024-07-09'
+title: Googleの調査「効果的なチームの作り方」は「幸せなパートナーシップの作り方」にそのまま応用できる！
+updated: '2025-05-01T13:28:00.000Z'
+url: /2407-pt-happy-partnership
 ---
 
 [Notionページ](https://www.notion.so/Google-c02821d08c0b4936bf2ca6081000cade)

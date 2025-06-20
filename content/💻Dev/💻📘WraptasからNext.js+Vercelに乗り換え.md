@@ -7,6 +7,7 @@ Slug: ''
 created: '2025-05-01T23:36:00.000Z'
 title: 💻📘WraptasからNext.js+Vercelに乗り換え
 updated: '2025-05-06T02:52:00.000Z'
+url: /
 ---
 
 [Notionページ](https://www.notion.so/Wraptas-Next-js-Vercel-1e694d022bbd808fab1bc17dbf2f8293)

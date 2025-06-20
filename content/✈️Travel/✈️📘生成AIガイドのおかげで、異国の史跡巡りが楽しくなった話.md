@@ -7,6 +7,7 @@ Slug: 2407-ai-guide
 created: '2024-07-25'
 title: ✈️📘生成AIガイドのおかげで、異国の史跡巡りが楽しくなった話
 updated: '2025-05-01T13:28:00.000Z'
+url: /2407-ai-guide
 ---
 
 [Notionページ](https://www.notion.so/AI-4c7988a6ca634b2db5f4454e18369a76)

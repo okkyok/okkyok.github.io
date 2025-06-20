@@ -7,6 +7,7 @@ Slug: 2311-lf-unlearning
 created: '2023-11-22'
 title: 📖📘冒険の書 AI時代のアンラーニング（孫泰蔵 ）を読んで
 updated: '2025-05-01T13:32:00.000Z'
+url: /2311-lf-unlearning
 ---
 
 [Notionページ](https://www.notion.so/AI-a760ae276da44a9f94005a68857da991)

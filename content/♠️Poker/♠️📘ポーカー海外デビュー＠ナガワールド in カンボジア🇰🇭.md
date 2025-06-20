@@ -7,6 +7,7 @@ Slug: 2404-pk-nagaworld
 created: '2024-04-14'
 title: ♠️📘ポーカー海外デビュー＠ナガワールド in カンボジア🇰🇭
 updated: '2025-05-01T13:29:00.000Z'
+url: /2404-pk-nagaworld
 ---
 
 [Notionページ](https://www.notion.so/in-a2867492a52f484187bf3d84cad1d788)

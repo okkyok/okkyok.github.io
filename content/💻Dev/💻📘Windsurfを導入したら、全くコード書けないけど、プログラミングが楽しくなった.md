@@ -7,6 +7,7 @@ Slug: ''
 created: 2025-05-01 23:37:00+00:00
 title: 💻📘Windsurfを導入したら、全くコード書けないけど、プログラミングが楽しくなった
 updated: 2025-05-06 02:52:00+00:00
+url: /
 ---
 
 [Notionページ](https://www.notion.so/Windsurf-1e694d022bbd80f691bfcde558438176)

@@ -7,6 +7,7 @@ Slug: 2311-tr-action-camera
 created: '2023-11-10'
 title: ✈️📘【世界一周持ち物】アクションカメラ比較検討＆Osmo Action 4（DJI）購入レビュー
 updated: '2025-05-01T13:33:00.000Z'
+url: /2311-tr-action-camera
 ---
 
 [Notionページ](https://www.notion.so/Osmo-Action-4-DJI-d59b16ca897141148819462172e97f68)

@@ -7,6 +7,7 @@ Slug: 2402-tr-idpass
 created: '2024-02-06'
 title: ✈️📘【世界一周準備】ID・パスワード管理ツールをNotionからBitwardenへ移行
 updated: '2025-05-01T13:31:00.000Z'
+url: /2402-tr-idpass
 ---
 
 [Notionページ](https://www.notion.so/ID-Notion-Bitwarden-8a1e4eb7989e44e0bb44263175cbc037)

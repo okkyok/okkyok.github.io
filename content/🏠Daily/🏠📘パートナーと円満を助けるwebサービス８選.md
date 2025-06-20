@@ -7,6 +7,7 @@ Slug: 2305-dl-web-service
 created: '2022-03-22T20:00:00.000+09:00'
 title: 🏠📘パートナーと円満を助けるwebサービス８選
 updated: '2025-05-01T13:37:00.000Z'
+url: /2305-dl-web-service
 ---
 
 [Notionページ](https://www.notion.so/web-08a485a8f81448a38a734be60e5fb94e)

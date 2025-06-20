@@ -7,6 +7,7 @@ Slug: 2401-tr-sub-bag
 created: '2024-01-03'
 title: ✈️📘【世界一周持ち物】サブバッグ比較検討＆フルムーン（Mystery Ranch購入レビュー
 updated: '2025-05-01T13:32:00.000Z'
+url: /2401-tr-sub-bag
 ---
 
 [Notionページ](https://www.notion.so/Mystery-Ranch-d092411f1cac492d88c6dd2f11041b17)

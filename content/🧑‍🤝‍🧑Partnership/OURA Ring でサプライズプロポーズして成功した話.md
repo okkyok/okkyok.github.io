@@ -1,11 +1,13 @@
 ---
-created: '2022-03-20'
-updated: '2025-05-01T13:38:00.000Z'
-Slug: '2305-pt-oura-3'
-Category: ['パートナーシップ｜Partnership']
-Published: 'true'
+Category:
+- パートナーシップ｜Partnership
 Date: '2022-03-20'
-title: 'OURA Ring でサプライズプロポーズして成功した話'
+Published: 'true'
+Slug: 2305-pt-oura-3
+created: '2022-03-20'
+title: OURA Ring でサプライズプロポーズして成功した話
+updated: '2025-05-01T13:38:00.000Z'
+url: /2305-pt-oura-3
 ---
 
 [Notionページ](https://www.notion.so/OURA-Ring-d375d80aa03146ce92841640513e8e2c)
