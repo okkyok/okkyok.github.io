@@ -5,15 +5,13 @@ Date: '2022-03-20'
 Published: 'true'
 Slug: 2305-pt-oura-3
 created: '2022-03-20'
-title: OURA Ring でサプライズプロポーズして成功した話
+title: 🧑‍🤝‍🧑📘OURA Ring でサプライズプロポーズして成功した話
 updated: '2025-05-01T13:38:00.000Z'
 url: /2305-pt-oura-3
 ---
-
-[Notionページ](https://www.notion.so/OURA-Ring-d375d80aa03146ce92841640513e8e2c)
+![[OURA_Ring_でサプライズプロポーズして成功した話.jpg]]
 
 ## 東京満喫デート〜１日目〜
-
 
 
 「予定していた週末土日の仕事がなくなったので、一泊二日で東京を満喫しよう！

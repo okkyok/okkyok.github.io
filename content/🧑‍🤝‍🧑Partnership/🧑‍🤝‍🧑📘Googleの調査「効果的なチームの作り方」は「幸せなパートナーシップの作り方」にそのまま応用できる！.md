@@ -5,15 +5,11 @@ Date: '2024-07-09'
 Published: 'true'
 Slug: 2407-pt-happy-partnership
 created: '2024-07-09'
-title: Googleの調査「効果的なチームの作り方」は「幸せなパートナーシップの作り方」にそのまま応用できる！
+title: 🧑‍🤝‍🧑📘Googleの調査「効果的なチームの作り方」は「幸せなパートナーシップの作り方」にそのまま応用できる！
 updated: '2025-05-01T13:28:00.000Z'
 url: /2407-pt-happy-partnership
 ---
-
-[Notionページ](https://www.notion.so/Google-c02821d08c0b4936bf2ca6081000cade)
-
-![image](../images/59c919a2-3004-4bba-a2ea-8ba4c2b9bf3a-1.jpeg)
-
+![[Googleの調査「効果的なチームの作り方」は「幸せなパートナーシップの作り方」にそのまま応用できる！.jpeg]]
 
 
 Googleは、社内にリサーチチームを持ち、自社の生産性を高めるための様々な研究を行っています。
