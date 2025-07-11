@@ -5,10 +5,13 @@ Date: 2022-03-18
 Published: 'true'
 Slug: 2305-pt-oura-1
 created: 2022-03-18
-title: 🧑‍🤝‍🧑📘OURA Ringでプロポーズするための準備
+title: 🤝📘OURA Ringでプロポーズするための準備
 updated: 2025-05-01 13:38:00+00:00
 url: /2305-pt-oura-1
 ---
+
+# 🤝📘OURA Ringでプロポーズするための準備
+
 ![[OURA_Ringでプロポーズするための準備.avif]]
 
 

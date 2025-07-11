@@ -5,10 +5,13 @@ Date: '2022-03-20'
 Published: 'true'
 Slug: 2305-pt-oura-3
 created: '2022-03-20'
-title: 🧑‍🤝‍🧑📘OURA Ring でサプライズプロポーズして成功した話
+title: 🤝📘OURA Ring でサプライズプロポーズして成功した話
 updated: '2025-05-01T13:38:00.000Z'
 url: /2305-pt-oura-3
 ---
+
+# 🤝📘OURA Ring でサプライズプロポーズして成功した話
+
 ![[OURA_Ring_でサプライズプロポーズして成功した話.jpg]]
 
 ## 東京満喫デート〜１日目〜

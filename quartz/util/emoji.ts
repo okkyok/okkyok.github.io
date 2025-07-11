@@ -76,10 +76,17 @@ export async function loadEmoji(code: string): Promise<string> {
 
   // Handle regular emoji
   const name = emojimap.codePointToName[`U+${code.toUpperCase()}`];
-  if (!name) throw new Error(`codepoint ${code} not found in map`);
+  if (!name) {
+    // Log the error but don't throw, to avoid crashing the build
+    console.warn(`codepoint ${code} not found in map`);
+    return '';
+  }
 
   const b64 = emojimap.nameToBase64[name];
-  if (!b64) throw new Error(`name ${name} not found in map`);
+  if (!b64) {
+    console.warn(`name ${name} not found in map`);
+    return '';
+  }
 
   return b64;
 }
