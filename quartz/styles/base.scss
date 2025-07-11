@@ -300,24 +300,42 @@ a {
       flex-direction: column;
       border-right: 1px solid #a2abb0; /* 右側に1pxの境界線を追加 */
       @media all and ($mobile) {
-        gap: 0;
-        align-items: center;
+        display: none; // Hide left sidebar on mobile
+      }
+      @media all and ($desktop) {
+        position: sticky;
+        top: 0;
+        height: 100vh;
+        overflow-y: auto;
+        /* スクロールバーを非表示に */
+        scrollbar-width: none; /* Firefox */
+        -ms-overflow-style: none; /* IE and Edge */
+        &::-webkit-scrollbar {
+          display: none; /* Chrome, Safari, Opera */
+        }
+      }
+      
+      @media all and not ($desktop) {
         position: initial;
-        display: flex;
         height: unset;
+        width: 100%;
         flex-direction: row;
         padding: 0;
-        padding-top: 2rem;
+        & > * {
+          flex: 1;
+          max-height: 24rem;
+        }
+        & > .toc {
+          display: flex; /* 目次を表示するように変更 */
+        }
       }
     }
-
     & .sidebar.right {
       grid-area: grid-sidebar-right;
       margin-right: 0;
       flex-direction: column;
-      @media all and ($mobile) {
-        margin-left: inherit;
-        margin-right: inherit;
+      @media all and ($tablet), ($mobile) {
+        display: none; // Hide right sidebar on tablet and mobile
       }
       /* デスクトップ表示時のみ固定表示を有効に */
       @media all and ($desktop) {
