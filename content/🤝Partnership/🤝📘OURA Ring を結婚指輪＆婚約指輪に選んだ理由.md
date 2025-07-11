@@ -10,7 +10,7 @@ updated: '2025-05-01T13:38:00.000Z'
 url: /2305-pt-oura-2
 ---
 
-![[../image/til-2506/OURA_Ring_を結婚指輪＆婚約指輪に選んだ理由 1.jpeg]]
+![[OURA Ring を結婚指輪_1.jpeg]]
 
 
 
