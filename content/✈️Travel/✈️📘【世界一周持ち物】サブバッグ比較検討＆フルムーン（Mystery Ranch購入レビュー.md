@@ -10,10 +10,7 @@ updated: '2025-05-01T13:32:00.000Z'
 url: /2401-tr-sub-bag
 ---
 
-[Notionページ](https://www.notion.so/Mystery-Ranch-d092411f1cac492d88c6dd2f11041b17)
-
-![image](../images/68df15a8-f63b-4584-b9fa-3aadb814afbf-1.jpeg)
-
+![[../image/til-2506/../image/til-2506/【世界一周持ち物】サブバッグ比較検討＆フルムーン（Mystery_Ranch購入レビュー.jpeg]]
 
 
 世界一周のメインバックパックと対となり、旅の重要な相棒となるのがサブバッグである。
@@ -52,9 +49,7 @@ url: /2401-tr-sub-bag
 
 実際に、お店で背負って、アクションカメラ製品なども入れてみて選んだ。
 
-![image](../images/f8c2435a-e5c1-43f3-b100-4b36b5ac39b8-2.jpg)
-
-
+![[../image/til-2506/【サ_20240103_143143.jpg]]
 
 もともと選定ポイントとしては、念頭にあったのは下記。
 
@@ -104,10 +99,7 @@ webで情報を取っているだけではわからない、色んな気付き�
 
 ### カメラの取り付けがいい感じにできる
 
-
-
-![image](../images/7ab0f9d0-5e0a-4cc7-9aa0-8923ed0780e4-3.jpg)
-
+![[../image/til-2506/【サ_20240101_113055.jpg]]
 
 
 利用して初めて気がついた[フルムーン](https://www.amazon.co.jp/dp/B07PQM6HPR?tag=maftracking-22&linkCode=osi&th=1)の素晴らしい点は、

@@ -10,10 +10,7 @@ updated: '2025-05-06T02:52:00.000Z'
 url: /2411-GAS-LINEbot
 ---
 
-[Notionページ](https://www.notion.so/GAS-LINEbot-13094d022bbd80deb8b3c76e99a38b71)
-
-![image](../images/13094d02-2bbd-8043-a4c2-dac34476f87f-1.jpeg)
-
+![[../image/til-2506/非エンジニアがGASを利用したLINEbotを作って、社内業務の効率化をしてみた.jpeg]]
 
 
 働いてもらってる方に、スプレッドシートやGドライブを使ってもらうことがあったのだが、年配の方もいらっしゃり、ITツールを利用することが負担に感じる方もいたので、GASを使ったLINEbotを作成して、LINEでスプレッドシートの情報を読み取ったり、記入したりできるように奮闘した話。

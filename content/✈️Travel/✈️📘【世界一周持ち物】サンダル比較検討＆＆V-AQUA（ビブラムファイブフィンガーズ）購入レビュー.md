@@ -9,10 +9,8 @@ title: ✈️📘【世界一周持ち物】サンダル比較検討＆
 updated: '2025-05-01T13:31:00.000Z'
 url: /2401-tr-sandal
 ---
+![[../image/til-2506/【世界一周持ち物】サンダル比較検討＆V-AQUA（ビブラムファイブフィンガーズ）購入レビュー.jpeg]]
 
-[Notionページ](https://www.notion.so/V-AQUA-4af1e9f4b392427a9409876204acfd4a)
-
-![image](../images/9c2f271e-d0f9-4ca1-b1da-d9fe7cb073cf-1.jpeg)
 
 旅における、サンダルの果たす役割は大きい。
 
@@ -60,13 +58,9 @@ url: /2401-tr-sandal
 
 ## サンダル候補
 
-
-
-
-
 ## Z1 クラシック（チャコ）
 
-![image](../images/6de3d43f-a7a2-4989-832f-b760a7f81f58-2.jpg)
+![[../image/til-2506/【サン_20240115_143458.jpg]]
 
 もともと愛用していたサンダルが [Z1 クラシック（チャコ）](http://tinyurl.com/yt3dkums)である。
 
@@ -78,7 +72,7 @@ url: /2401-tr-sandal
 
 ## ハリケーン ドリフト（TEVA）
 
-![image](../images/1db248d8-fce4-4351-af76-f1a1be5ca5e8-3.jpg)
+![[../image/til-2506/【サン_1000002683.jpg]]
 
 最初に購入したのは、[ハリケーン ドリフト（TEVA）](http://tinyurl.com/ymrdjx8o) だ。
 
@@ -122,7 +116,9 @@ url: /2401-tr-sandal
 
 ### V-AQUA
 
-![image](../images/a58a75c1-be5e-4d9a-8b45-a2bd71ec66ee-4.jpg)
+![[../image/til-2506/【サン_1000002680.jpg]]
+
+
 
 まず、もっともオススメされた[V-AQUA（ビブラムファイブフィンガーズ）](http://tinyurl.com/yttmdql5)を試着してみた。
 
@@ -144,6 +140,8 @@ url: /2401-tr-sandal
 
 ### V-ALPHA
 
+![[../image/til-2506/【サン_1000002652.jpg]]
+
 ![image](../images/6e015998-23df-493d-9d7c-39bb5f206267-5.jpg)
 
 続いて試したのが、[V-ALPHA（ビブラムファイブフィンガーズ）](http://tinyurl.com/ywj96j5n) だ。
@@ -156,7 +154,8 @@ url: /2401-tr-sandal
 
 ### V-TRAIL 2.0
 
-![image](../images/b98f2754-5f4c-41ff-9238-e158c6504e89-6.jpg)
+![[../image/til-2506/【サン_20240112_163016.jpg]]
+
 
 最後に試したのが、[V-TRAIL 2.0（ビブラムファイブフィンガーズ）](http://tinyurl.com/yw8c3ubh)だ。
 

@@ -10,10 +10,7 @@ updated: '2025-05-01T13:31:00.000Z'
 url: /2402-tr-idpass
 ---
 
-[Notionページ](https://www.notion.so/ID-Notion-Bitwarden-8a1e4eb7989e44e0bb44263175cbc037)
-
-![image](../images/f859525e-d0bf-44a3-99a8-e317a30ee315-1.jpeg)
-
+![[../image/til-2506/【世界一周準備】ID・パスワード管理ツールをNotionからBitwardenへ移行.jpeg]]
 
 
 日々新しいサービスが生み出され、そのサービスの数だけアカウント情報を持つことになる。
@@ -94,13 +91,9 @@ url: /2402-tr-idpass
 
 
 
-
-
 ## Bitwardenの素晴らしい点
 
-
-
-![image](../images/af38f268-7a8a-48b8-b737-936b6b9df838-2.png)
+![[../image/til-2506/【ID_bitwarden.png]]
 
 ※画像引用：https://www.trabitt.com/password-management-tool-bitwarden
 

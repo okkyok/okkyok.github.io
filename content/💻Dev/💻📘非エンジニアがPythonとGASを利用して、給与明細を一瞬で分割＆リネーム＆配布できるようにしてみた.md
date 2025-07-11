@@ -10,11 +10,7 @@ updated: '2025-05-06T02:52:00.000Z'
 url: /2411-pdf-cutting-rename
 ---
 
-[Notionページ](https://www.notion.so/Python-GAS-13094d022bbd8052a363edc11ded1eeb)
-
-![image](../images/13194d02-2bbd-809a-a9ef-e3c53806577d-1.jpeg)
-
-
+![[../image/til-2506/非エンジニアがPythonとGASを利用して、給与明細を一瞬で分割＆リネーム＆配布できるようにしてみた.jpeg]]
 
 顧問税理士さんの変更に伴い、これまで給与明細を税理士さんから個別にお送り頂いていたものを、同様の対応をしてもらえなくなり、その代わり就業者全員の給与明細を１つのPDFまとめたものを展開されるようになった。
 

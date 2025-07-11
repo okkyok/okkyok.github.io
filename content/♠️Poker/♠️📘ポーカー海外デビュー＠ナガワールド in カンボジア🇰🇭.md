@@ -10,11 +10,7 @@ updated: '2025-05-01T13:29:00.000Z'
 url: /2404-pk-nagaworld
 ---
 
-[Notionページ](https://www.notion.so/in-a2867492a52f484187bf3d84cad1d788)
-
-![image](../images/99355040-ba1b-485f-b7bb-6c969518dc70-1.jpeg)
-
-
+![[../image/til-2506/ポーカー海外デビュー＠ナガワールド_in_カンボジア.jpeg]]
 
 2024年4月、カンボジアのプノンペンにあるナガワールド（Naga world）で、海外初ポーカーをデビューをしたので、どこかの誰かの役に立てれば。
 

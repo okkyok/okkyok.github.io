@@ -10,11 +10,7 @@ updated: '2025-05-01T13:32:00.000Z'
 url: /2311-lf-unlearning
 ---
 
-[Notionページ](https://www.notion.so/AI-a760ae276da44a9f94005a68857da991)
-
-![image](../images/6447b3bc-0dc6-4972-bae0-cd40e860801d-1.jpeg)
-
-
+![[../image/til-2506/冒険の書_AI時代のアンラーニング（孫泰蔵_）を読んで.jpeg]]
 
 過去の偉人と対話形式で進んでいくこの本は、とても読みやすく楽しくあっという間に読み終わった。
 

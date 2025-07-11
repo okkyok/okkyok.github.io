@@ -10,13 +10,7 @@ updated: '2025-05-01T13:36:00.000Z'
 url: /2310-tr-internet
 ---
 
-[Notionページ](https://www.notion.so/eSIM-cf61cc3c06434357848727511db3bcb7)
-
-
-
-
-
-![image](../images/6b1071c6-21cf-4677-838d-1e6d97bf049f-1.jpeg)
+![[../image/til-2506/長期旅行の海外インターネットは、eSIM一択.jpeg]]
 
 ## 海外でのインターネット環境の利便性
 

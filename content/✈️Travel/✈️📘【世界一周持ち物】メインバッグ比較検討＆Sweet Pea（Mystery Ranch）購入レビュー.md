@@ -10,11 +10,7 @@ updated: '2025-05-01T13:31:00.000Z'
 url: /2401-tr-main-bag
 ---
 
-[Notionページ](https://www.notion.so/Sweet-Pea-Mystery-Ranch-de4f849e58c94463944217207d408995)
-
-![image](../images/8c688588-839c-4899-8ed8-c349527405fb-1.jpeg)
-
-
+![[../image/til-2506/【世界一周持ち物】メインバッグ比較検討＆Sweet_Pea（Mystery_Ranch）購入レビュー.jpeg]]
 
 旅の相棒として、どんなバッグで旅をするか、は旅の質を大きく左右する。
 
@@ -46,9 +42,7 @@ url: /2401-tr-main-bag
 
 ## Sweet Pea（Mystery Ranch）
 
-
-
-![image](../images/ebdd4137-7fa7-45f8-b7bb-62851f665514-2.jpg)
+![[../image/til-2506/【メイン_20240105_110845.jpg]]
 
 
 
@@ -76,7 +70,7 @@ url: /2401-tr-main-bag
 
 ただ、さすがにバックパックの内側などは生地の加水分解がそれなりに進んでいてる。」
 
-![image](../images/b8daaa11-f7e6-4b41-b83e-d89bc9d5c987-3.jpg)
+![[../image/til-2506/【メイン_20240105_104912.jpg]]
 
 ただ、もしも自分が旅に適するバッグを所有していない状態で選択するとしたらどうか。
 
@@ -145,7 +139,7 @@ url: /2401-tr-main-bag
 
 ### ローリングトランスポーター 40（Osprey）
 
-![image](../images/06e45aae-d5ac-4969-b207-36a8b5b62f34-4.jpg)
+![[../image/til-2506/【メイン_20240105_112011.jpg]]
 
 
 

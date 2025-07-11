@@ -10,9 +10,7 @@ updated: '2025-05-01T13:33:00.000Z'
 url: /2311-tr-action-camera
 ---
 
-[Notionページ](https://www.notion.so/Osmo-Action-4-DJI-d59b16ca897141148819462172e97f68)
-
-![image](../images/84b6d505-0a3b-4d4b-a63e-265a03a22688-1.jpeg)
+![[../image/til-2506/【世界一周持ち物】アクションカメラ比較検討＆Osmo_Action_4（DJI）購入レビュー.jpeg]]
 
 ## 世界一周でのアクションカメラの選定条件
 
