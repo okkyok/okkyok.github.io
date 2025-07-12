@@ -298,6 +298,9 @@ a {
       z-index: 1;
       grid-area: grid-sidebar-left;
       flex-direction: column;
+      width: #{$sidePanelWidth}; /* 左サイドバーの幅を明示的に固定 */
+      min-width: #{$sidePanelWidth}; /* 最小幅も固定 */
+      max-width: #{$sidePanelWidth}; /* 最大幅も固定 */
       border-right: 1px solid #a2abb0; /* 右側に1pxの境界線を追加 */
       @media all and ($mobile) {
         display: none; // Hide left sidebar on mobile

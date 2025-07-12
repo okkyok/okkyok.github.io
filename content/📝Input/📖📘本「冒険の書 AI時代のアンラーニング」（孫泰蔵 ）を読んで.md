@@ -1,12 +1,12 @@
 ---
 Category:
-- 読書｜Reading
-Date: '2023-11-22'
-Published: 'true'
+  - インプット｜Input
+Date: 2023-11-22
+Published: "true"
 Slug: 2311-lf-unlearning
-created: '2023-11-22'
+created: 2023-11-22
 title: 📖📘冒険の書 AI時代のアンラーニング（孫泰蔵 ）を読んで
-updated: '2025-05-01T13:32:00.000Z'
+updated: 2025-05-01T13:32:00.000Z
 url: /2311-lf-unlearning
 ---
 
