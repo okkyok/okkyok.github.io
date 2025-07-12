@@ -30,7 +30,7 @@ url: /2305-dl-web-service
 
 ### １．Slack
 
-![image](../images/dc112650-1342-4006-8f30-a2a65741a930-2.webp)
+![[パートナーと円満を助けるweb_2.webp]]
 
 日々の連絡に利用。
 
@@ -54,7 +54,7 @@ url: /2305-dl-web-service
 
 ### ２．Notion
 
-![image](../images/3d99df4a-a268-477e-9615-50bd17cd023d-3.png)
+![[パートナーと円満を助けるweb_3.png]]
 
 夫婦の情報一元管理するメモ帳として利用。
 
@@ -66,7 +66,7 @@ url: /2305-dl-web-service
 
 ### ３．Google Carender
 
-![image](../images/3ea9252f-96e7-4fa2-9b67-5e86f2a3f1ae-4.png)
+![[パートナーと円満を助けるweb_4.png]]
 
 お互いの予定を共有のために利用。
 
@@ -82,7 +82,7 @@ url: /2305-dl-web-service
 
 ### ４．スプレッドシート
 
-![image](../images/84af99fc-a8bf-41f1-8ca3-ecba41efc60a-5.jpeg)
+![[パートナーと円満を助けるweb_5.jpeg]]
 
 家計簿管理に利用。
 
@@ -96,7 +96,7 @@ url: /2305-dl-web-service
 
 ### ５．Google Map
 
-![image](../images/8ef187f2-f3fc-4f55-a804-d3b072c9f7c2-6.jpeg)
+![[パートナーと円満を助けるweb_6.jpeg]]
 
 行きたい場所共有のため利用。
 
@@ -122,7 +122,7 @@ url: /2305-dl-web-service
 
 ### ７．家族アルバムみてね
 
-![image](../images/34693ea7-2f65-4528-889a-538ddeed3158-8.jpeg)
+![[パートナーと円満を助けるweb_7.jpeg]]
 
 ライフログ的な動画の共有のために利用。
 
@@ -134,7 +134,7 @@ Amazon Photo だと動画は5G**B**以降は有料になっちゃうため。
 
 ### ８．Youtube
 
-![image](../images/49d9d27f-8f5b-40f2-8f4b-9355d961e631-9.jpeg)
+![[パートナーと円満を助けるweb_8.jpeg]]
 
 ３分以上の長編動画共有のために利用。
 
