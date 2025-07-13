@@ -10,7 +10,7 @@ updated: '2025-05-01T13:33:00.000Z'
 url: /2311-tr-action-camera
 ---
 
-![[【世界一周持ち物】アクションカ_1.jpeg]]
+![[【世界一周持ち物】アクションカ_1.avif]]
 
 ## 世界一周でのアクションカメラの選定条件
 
@@ -190,7 +190,7 @@ Daigoさんオススメの [Ulanzi MT-24 カメラ三脚](https://www.amazon.co.
 
 
 
-![image](../images/09e49a32-9f04-4721-82cc-511dcbeaff5b-2.jpg)
+![image](../images/09e49a32-9f04-4721-82cc-511dcbeaff5b-2.avif)
 
 
 

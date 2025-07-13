@@ -10,7 +10,7 @@ updated: '2025-05-01T13:38:00.000Z'
 url: /2305-pt-oura-2
 ---
 
-![[OURA Ring を結婚指輪_1.jpeg]]
+![[OURA Ring を結婚指輪_1.avif]]
 
 
 
@@ -24,7 +24,7 @@ url: /2305-pt-oura-2
 
 ## OURA Ring って？
 
-![[OURA Ring を結婚指輪_3.jpeg]]
+![[OURA Ring を結婚指輪_3.avif]]
 
 
 
@@ -78,7 +78,7 @@ OURA Ring は、[Oura](https://ouraring.com/)が開発する睡眠や日常の�
 
 ### １．結婚指輪へのイメージ
 
-![[OURA Ring を結婚指輪_9.jpeg]]
+![[OURA Ring を結婚指輪_9.avif]]
 
 
 
@@ -108,7 +108,7 @@ OURA Ring は、[Oura](https://ouraring.com/)が開発する睡眠や日常の�
 
 ### ２．OURA Ring へ興味
 
-![[OURA Ring を結婚指輪_2.jpeg]]
+![[OURA Ring を結婚指輪_2.avif]]
 
 
 
@@ -118,7 +118,7 @@ OURA Ring は、[Oura](https://ouraring.com/)が開発する睡眠や日常の�
 
 ### ３．OURA Ring が結婚指輪＆婚約指輪とする選択肢
 
-![[OURA Ring を結婚指輪_7.jpeg]]
+![[OURA Ring を結婚指輪_7.avif]]
 
 
 
@@ -143,7 +143,7 @@ OURA Ring は、[Oura](https://ouraring.com/)が開発する睡眠や日常の�
 ### ４．プロポーズにおける婚約指輪の果たす役割
 
 
-![[OURA Ring を結婚指輪_6.jpeg]]
+![[OURA Ring を結婚指輪_6.avif]]
 
 
 

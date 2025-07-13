@@ -10,7 +10,7 @@ updated: '2025-05-01T13:31:00.000Z'
 url: /2402-tr-idpass
 ---
 
-![[【世界一周準備】ID・パスワー_2.jpeg]]
+![[【世界一周準備】ID・パスワー_2.avif]]
 
 
 日々新しいサービスが生み出され、そのサービスの数だけアカウント情報を持つことになる。
@@ -93,7 +93,7 @@ url: /2402-tr-idpass
 
 ## Bitwardenの素晴らしい点
 
-![[【世界一周準備】ID・パスワー_1.png]]
+![[【世界一周準備】ID・パスワー_1.avif]]
 
 ※画像引用：https://www.trabitt.com/password-management-tool-bitwarden
 

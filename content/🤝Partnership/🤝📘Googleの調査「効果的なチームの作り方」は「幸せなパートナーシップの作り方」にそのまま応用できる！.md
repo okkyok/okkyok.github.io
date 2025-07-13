@@ -10,7 +10,7 @@ updated: '2025-05-01T13:28:00.000Z'
 url: /2407-pt-happy-partnership
 ---
 
-![[Googleの調査「効果的なチ_1.jpeg]]
+![[Googleの調査「効果的なチ_1.avif]]
 
 
 Googleは、社内にリサーチチームを持ち、自社の生産性を高めるための様々な研究を行っています。
