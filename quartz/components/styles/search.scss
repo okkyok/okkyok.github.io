@@ -2,7 +2,7 @@
 
 .search {
   min-width: fit-content;
-  width: 100%;
+  max-width: 10rem;
   margin: 0 0 0 1rem; /* 左側に1remの余白を追加、下の余白は0に */
   @media all and ($mobile) {
     flex-grow: 0.3;
