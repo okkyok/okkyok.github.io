@@ -325,6 +325,26 @@ a {
       min-width: #{$sidePanelWidth}; /* 最小幅も固定 */
       max-width: #{$sidePanelWidth}; /* 最大幅も固定 */
       border-right: 1px solid #a2abb0; /* 右側に1pxの境界線を追加 */
+
+      // タイトルと検索を囲むコンテナをFlexboxにする
+      & > div:first-of-type {
+        display: flex;
+        flex-wrap: nowrap; // 折り返さない
+        align-items: center; // 垂直方向中央揃え
+        padding: 0 1rem; // 左右に余白を追加
+        margin-bottom: 1rem; // 下に余白を追加
+      }
+
+      // PageTitleコンポーネントのスタイル調整
+      .page-title {
+        margin: 0; // 余白をリセット
+      }
+
+      // Searchコンポーネントのスタイル調整
+      .search {
+        margin: 0 0 0 auto; // 左側に自動で余白を取り、右寄せにする
+        max-width: 10rem; // 最大幅を少し調整
+      }
       @media all and ($mobile) {
         display: none; // Hide left sidebar on mobile
       }

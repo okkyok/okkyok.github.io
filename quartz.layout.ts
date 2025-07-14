@@ -26,19 +26,8 @@ export const defaultContentPageLayout: PageLayout = {
     Component.TagList(),
   ],
   left: [
-    Component.Flex({
-      direction: "row",
-      components: [
-        {
-          Component: Component.PageTitle(),
-          grow: false, // タイトルは幅を固定
-        },
-        {
-          Component: Component.Search(),
-          grow: true, // 検索は残りの幅を埋める
-        },
-      ],
-    }),
+    Component.PageTitle(),
+    Component.Search(),
     Component.Explorer({
       filterFn: (node) => {
         // Notesフォルダとその中のファイルを非表示にする
@@ -60,19 +49,8 @@ export const defaultContentPageLayout: PageLayout = {
 export const defaultListPageLayout: PageLayout = {
   beforeBody: [Component.Breadcrumbs(), Component.ArticleTitle(), Component.ContentMeta()],
   left: [
-    Component.Flex({
-      direction: "row",
-      components: [
-        {
-          Component: Component.PageTitle(),
-          grow: false, // タイトルは幅を固定
-        },
-        {
-          Component: Component.Search(),
-          grow: true, // 検索は残りの幅を埋める
-        },
-      ],
-    }),
+    Component.PageTitle(),
+    Component.Search(),
     Component.Explorer({
       filterFn: (node) => {
         // Notesフォルダとその中のファイルを非表示にする
