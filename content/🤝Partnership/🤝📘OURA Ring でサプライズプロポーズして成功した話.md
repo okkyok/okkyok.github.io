@@ -102,7 +102,7 @@ url: /2305-pt-oura-3
 ディナーは「新橋茶寮 汐留シティセンター店」へ。
 
 食事はこんな感じ。
-![[OURA Ring でサプ_13.avif]]
+![[OURA Ring でサプ_13.jpg]]
 ![[OURA Ring でサプ_14.avif]]
 ![[OURA Ring でサプ_15.avif]]
 
@@ -190,7 +190,7 @@ url: /2305-pt-oura-3
 
 
 お口直しいちごのパスタ！
-![[OURA Ring でサプ_24.avif]]
+![[OURA Ring でサプ_24.jpg]]
 
 パスタでお口直しって、、、でも美味い！
 
@@ -211,8 +211,8 @@ url: /2305-pt-oura-3
 
 
 大満足のところで、しばらくお散歩した後、お次はアフタヌーンクルーズ！
-![[OURA Ring でサプ_28.avif]]
-![[OURA Ring でサプ_29.avif]]
+![[OURA Ring でサプ_28.jpg]]
+![[OURA Ring でサプ_29.jpg]]
 
 盛大な一泊二日東京満喫ツアー、閉幕！
 

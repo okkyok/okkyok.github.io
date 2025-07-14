@@ -140,9 +140,7 @@ url: /2401-tr-sandal
 
 ### V-ALPHA
 
-![[【世界一周持ち物】サンダル比較_1.avif]]
-
-![image](../images/6e015998-23df-493d-9d7c-39bb5f206267-5.avif)
+![[【世界一周持ち物】サンダル比較_1.jpg]]
 
 続いて試したのが、[V-ALPHA（ビブラムファイブフィンガーズ）](http://tinyurl.com/ywj96j5n) だ。
 

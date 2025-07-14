@@ -1,11 +1,36 @@
 import { QuartzConfig } from "./quartz/cfg"
 import * as Plugin from "./quartz/plugins"
+import { QuartzEmitterPlugin } from "./quartz/plugins/types"
+import path from "path"
+import fs from "fs-extra"
 
 /**
  * Quartz 4 Configuration
  *
  * See https://quartz.jzhao.xyz/configuration for more information.
  */
+
+// カスタムプラグイン：指定された画像フォルダをpublicディレクトリにコピーする
+const CopyImageFolder: QuartzEmitterPlugin = () => ({
+  name: "CopyImageFolder",
+  emit: async (ctx, _content, _resources) => {
+    const srcDir = "/Users/okky_1_2/Library/Mobile Documents/com~apple~CloudDocs/my_obsidian/🌏️okkylife/image"
+    const destDir = path.join(ctx.argv.output, "image")
+
+    if (fs.existsSync(srcDir)) {
+      console.log(`
+[CopyImageFolder] Copying images from ${srcDir} to ${destDir}`)
+      await fs.copy(srcDir, destDir)
+      console.log(`[CopyImageFolder] Finished copying images.`)
+    } else {
+      console.log(`
+[CopyImageFolder] Source directory not found: ${srcDir}`)
+    }
+
+    return []
+  },
+})
+
 const config: QuartzConfig = {
   configuration: {
     pageTitle: "Loventia",
@@ -17,7 +42,7 @@ const config: QuartzConfig = {
     },
     locale: "ja-JP",
     baseUrl: "okkylife.com", // 独自ドメインを指定（https:// は含めない）
-    ignorePatterns: ["private", "templates", ".obsidian"], // 無視するファイル・ディレクトリ
+    ignorePatterns: ["private", "templates", ".obsidian", "image"], // 無視するファイル・ディレクトリ
     defaultDateType: "modified",
     theme: {
       fontOrigin: "googleFonts",
@@ -92,7 +117,8 @@ const config: QuartzConfig = {
       Plugin.Favicon(),
       Plugin.NotFoundPage(),
       // Comment out CustomOgImages to speed up build time
-      Plugin.CustomOgImages(),
+      // Plugin.CustomOgImages(),
+      CopyImageFolder(), // カスタムプラグインを有効化
     ],
   },
 }

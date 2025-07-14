@@ -48,6 +48,7 @@
     "d3": "^7.9.0",
     "esbuild-sass-plugin": "^3.3.1",
     "flexsearch": "0.7.43",
+    "fs-extra": "^11.3.0",
     "github-slugger": "^2.0.0",
     "globby": "^14.1.0",
     "gray-matter": "^4.0.3",
@@ -100,6 +101,7 @@
   },
   "devDependencies": {
     "@types/d3": "^7.4.3",
+    "@types/fs-extra": "^11.0.4",
     "@types/hast": "^3.0.4",
     "@types/js-yaml": "^4.0.9",
     "@types/node": "^22.15.23",
