@@ -7,12 +7,13 @@ export const RemoveDrafts: QuartzFilterPlugin<{}> = () => ({
     if (!vfile.data?.frontmatter) return true
 
     // publish: trueが明示的に設定されている場合は表示する
-    if (vfile.data.frontmatter.publish === true || vfile.data.frontmatter.publish === "true") return true
-    
+    if (vfile.data.frontmatter.publish === true || vfile.data.frontmatter.publish === "true")
+      return true
+
     // draft: trueが設定されている場合は表示しない
     const draftFlag: boolean =
       vfile.data.frontmatter.draft === true || vfile.data.frontmatter.draft === "true"
-    
+
     // draftフラグがない場合は表示する
     return !draftFlag
   },

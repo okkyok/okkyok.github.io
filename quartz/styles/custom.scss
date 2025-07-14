@@ -13,40 +13,43 @@ body footer {
   width: auto;
   max-width: 14rem;
   z-index: 100;
-  
+
   // テキスト配置
   text-align: right;
-  
+
   // サイズと透明度
   font-size: 0.75rem !important;
   opacity: 0.6;
-  
+
   // マージン調整
   margin-bottom: 0;
-  
+
   // 全てのテキスト要素にサイズと行間を適用
-  *, p, li, a {
+  *,
+  p,
+  li,
+  a {
     font-size: 0.75rem !important;
     line-height: 0.9 !important;
   }
-  
+
   // パラグラフ要素
   p {
     margin: 0;
     padding: 0;
     margin-bottom: 0.2rem;
   }
-  
+
   // リンクスタイル
   a {
     color: inherit;
     text-decoration: none;
-    
+
     &:hover {
       text-decoration: underline;
     }
   }
-  
+
   // リスト調整
   ul {
     justify-content: flex-end;
@@ -54,13 +57,13 @@ body footer {
     padding: 0;
     gap: 0.5rem;
   }
-  
+
   // モバイル対応
   @media (max-width: 600px) {
     position: static;
     text-align: center;
     margin-top: 2rem;
-    
+
     ul {
       justify-content: center;
     }
@@ -80,11 +83,12 @@ body > div.sidebar-container .explorer + .footer {
 // custom.scss に追加
 .container {
   // デスクトップ表示時のみ適用
-  @media (min-width: 1200px) {  // $desktop のブレイクポイントに合わせて調整
-    grid-template-areas: 
+  @media (min-width: 1200px) {
+    // $desktop のブレイクポイントに合わせて調整
+    grid-template-areas:
       "header header header"
       "left middle right"
-      "left middle right";  // フッターエリアを削除
+      "left middle right"; // フッターエリアを削除
 
     // フッターを右カラム内に配置
     footer {

@@ -17,17 +17,17 @@
   position: sticky; /* 固定表示に設定 */
   top: 2.5rem; /* 上部からの位置 */
   max-height: calc(100vh - 4rem); /* 画面高さから余白を引いた高さ */
-  
+
   &:has(button.toc-header.collapsed) {
     flex: 0 1 1.4rem;
   }
-  
+
   /* スクロール可能な領域を内側に作成 */
   .toc-scrollable {
     overflow-y: auto;
     max-height: calc(100% - 2.5rem); /* ヘッダーの高さ分を引く */
     padding-right: 0.5rem; /* スクロールバーのための余白 */
-    
+
     /* スクロールバーを非表示に */
     scrollbar-width: none; /* Firefox用 */
     -ms-overflow-style: none; /* IE/Edge用 */
@@ -74,14 +74,14 @@ ul.toc-content.overflow {
   width: 100%;
   box-sizing: border-box;
   overscroll-behavior: contain;
-  
+
   // スクロールバーを非表示にしつつ、スクロール機能は維持
   scrollbar-width: none; /* Firefox用 */
   -ms-overflow-style: none; /* IE/Edge用 */
   &::-webkit-scrollbar {
     display: none; /* Chrome/Safari/Opera用 */
   }
-  
+
   // 深さレベルごとのグループ化（縦線のため）
   @for $i from 1 through 6 {
     .depth-wrapper-#{$i} {
@@ -91,12 +91,12 @@ ul.toc-content.overflow {
       border-left: 1px solid #e0e0e0;
     }
   }
-  
+
   & > li {
     position: relative;
     margin-bottom: 0.7rem;
     list-style-type: none !important;
-    
+
     & > a {
       color: #7a8c91;
       opacity: 0.95;
@@ -108,18 +108,18 @@ ul.toc-content.overflow {
       transition:
         0.3s ease opacity,
         0.3s ease color;
-      
+
       &:hover {
         color: #5a6a6e;
         text-decoration: underline;
       }
-      
+
       &.in-view {
         opacity: 1;
         color: #29a198; /* ハイライト色を#93c9c2に変更 */
         font-weight: 600; /* 太字の度合いを小さくして600から500に変更 */
         position: relative;
-        
+
         /* 左側にマーカーを追加 */
         &::before {
           content: "";
@@ -134,12 +134,12 @@ ul.toc-content.overflow {
         }
       }
     }
-    
+
     // 基本インデント設定
     &.depth-0 {
       padding-left: 0;
     }
-    
+
     // 各レベルのインデント設定
     @for $i from 1 through 6 {
       &.depth-#{$i} {
@@ -148,14 +148,14 @@ ul.toc-content.overflow {
       }
     }
   }
-  
+
   // 縦線のみを表示し、横線は表示しない
-  
+
   // 縦線の実装 - ナビゲーションの方式に合わせる
   @for $i from 1 through 6 {
     & > li.depth-#{$i} {
       position: relative;
-      
+
       &::after {
         content: "";
         position: absolute;

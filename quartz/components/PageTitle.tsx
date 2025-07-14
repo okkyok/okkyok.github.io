@@ -12,7 +12,9 @@ const PageTitle: QuartzComponent = ({ fileData, cfg, displayClass }: QuartzCompo
         <img src="/static/Loventia_logo.webp" alt="Loventia" class="logo-img" />
       </a>
       <h2 class={classNames(displayClass, "page-title")}>
-        <a href={baseDir} class="title-link">{title}</a>
+        <a href={baseDir} class="title-link">
+          {title}
+        </a>
       </h2>
     </div>
   )

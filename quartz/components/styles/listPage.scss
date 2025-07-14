@@ -8,7 +8,7 @@ ul.section-ul {
 
 .page-listing {
   margin-top: 1em;
-  
+
   /* フォルダ内のページ数表示 */
   & > p {
     margin: 0 0 1em 1.5rem; /* 左に1.5remの余白を追加 */
@@ -41,7 +41,7 @@ li.section-li {
 
     @media all and ($mobile) {
       grid-template-columns: 10em 1fr; /* モバイルでも日付の幅を固定 */
-      
+
       & > .tags {
         display: none;
       }
@@ -52,12 +52,12 @@ li.section-li {
       font-weight: 500;
       margin-bottom: 0.3rem;
       line-height: 1.5rem;
-      
+
       & > a {
         background-color: transparent;
         color: inherit;
         text-decoration: none;
-        
+
         &:hover {
           text-decoration: underline;
         }
@@ -72,7 +72,7 @@ li.section-li {
       font-size: 0.95rem;
       line-height: 1.5rem;
     }
-    
+
     /* 日付のスタイルを調整 */
     & .meta .date {
       display: block;

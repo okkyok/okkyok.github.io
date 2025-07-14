@@ -5,11 +5,11 @@
 
 /* 絵文字用の基本スタイル */
 .emoji {
-  font-family: 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-family: "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-style: normal;
   font-weight: normal;
-  font-feature-settings: 'liga';
-  -webkit-font-feature-settings: 'liga';
+  font-feature-settings: "liga";
+  -webkit-font-feature-settings: "liga";
   -webkit-font-smoothing: antialiased;
   display: inline-block;
   vertical-align: -0.125em;
@@ -24,31 +24,31 @@
 /* 個別の絵文字にスタイルを適用 */
 /* 飛行機 */
 .emoji-airplane,
-:contains('✈') {
+:contains("✈") {
   @extend .emoji;
 }
 
 /* スペード */
 .emoji-spade,
-:contains('♠') {
+:contains("♠") {
   @extend .emoji;
 }
 
 /* ダイヤモンド */
 .emoji-diamond,
-:contains('♦') {
+:contains("♦") {
   @extend .emoji;
 }
 
 /* クラブ */
 .emoji-club,
-:contains('♣') {
+:contains("♣") {
   @extend .emoji;
 }
 
 /* ハート */
 .emoji-heart,
-:contains('♥') {
+:contains("♥") {
   @extend .emoji;
 }
 
@@ -59,7 +59,19 @@
 }
 
 /* 絵文字を含む可能性のある要素に基本スタイルを適用 */
-p, h1, h2, h3, h4, h5, h6, a, li, td, th, span, div {
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+li,
+td,
+th,
+span,
+div {
   /* 絵文字が正しく表示されるようにする */
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;

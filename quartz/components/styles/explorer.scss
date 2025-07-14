@@ -40,7 +40,7 @@
   position: sticky;
   top: 2.5rem;
   max-height: calc(100vh - 2rem);
-  
+
   /* ナビゲーションのヘッダー部分を固定 */
   & > button.desktop-explorer {
     position: sticky;
@@ -73,12 +73,12 @@
     position: initial;
     max-height: none;
     padding: 0.5rem 1rem;
-    
+
     .explorer-scrollable {
       max-height: 60vh; /* モバイルでの最大高さを制限 */
       padding-right: 0;
     }
-    
+
     /* モバイルではスクロールバーを非表示に */
     scrollbar-width: none;
     -ms-overflow-style: none;
@@ -163,12 +163,12 @@ button.desktop-explorer {
 .explorer-content {
   flex: 1 1 auto;
   overflow: hidden;
-  
+
   /* スクロール可能な領域 */
   .explorer-scrollable {
     overflow-y: auto;
     max-height: calc(100% - 2.5rem);
-    padding-right: 0.0rem;
+    padding-right: 0rem;
     box-sizing: border-box;
     scrollbar-width: none; /* Firefox用 */
     -ms-overflow-style: none; /* IE/Edge用 */
@@ -185,7 +185,7 @@ button.desktop-explorer {
 
     & li {
       margin-bottom: 0.6rem;
-      
+
       & > a {
         color: #647a83 !important;
         opacity: 0.95;
@@ -201,7 +201,7 @@ button.desktop-explorer {
           color: #4a5c63;
           text-decoration: underline;
         }
-        
+
         &.active {
           opacity: 1;
           color: #4a5c63;

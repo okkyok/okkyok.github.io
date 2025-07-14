@@ -5,10 +5,18 @@ const SimpleNav: QuartzComponent = ({ displayClass }: QuartzComponentProps) => {
   return (
     <div class={classNames(displayClass, "simple-nav")}>
       <ul>
-        <li><a href="/articles">📘 Articles</a></li>
-        <li><a href="/notes">📝 Notes</a></li>
-        <li><a href="/projects">🛠️ Projects</a></li>
-        <li><a href="/about">👤 About</a></li>
+        <li>
+          <a href="/articles">📘 Articles</a>
+        </li>
+        <li>
+          <a href="/notes">📝 Notes</a>
+        </li>
+        <li>
+          <a href="/projects">🛠️ Projects</a>
+        </li>
+        <li>
+          <a href="/about">👤 About</a>
+        </li>
       </ul>
     </div>
   )

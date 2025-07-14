@@ -8,7 +8,8 @@
  * assuming mobile < desktop
  */
 $breakpoints: (
-  mobile: 900px, // Change breakpoint to 900px
+  mobile: 900px,
+  // Change breakpoint to 900px
   desktop: 1200px,
 );
 
@@ -18,24 +19,25 @@ $desktop: "(min-width: #{map.get($breakpoints, desktop)})";
 
 $pageWidth: #{map.get($breakpoints, mobile)};
 $sidePanelWidth: 300px; /* 310pxから10px減少 */
-$topSpacing: 1.5rem; 
+$topSpacing: 1.5rem;
 $boldWeight: 700;
 $semiBoldWeight: 600;
 $normalWeight: 400;
 
 $mobileGrid: (
   templateRows: "auto auto auto auto",
-  templateColumns: "1fr", // Single column layout
+  templateColumns: "1fr",
+  // Single column layout
   rowGap: "5px",
   columnGap: "0",
-  templateAreas:
-    '"grid-header"\
+  templateAreas: '"grid-header"\
       "grid-center"\
       "grid-footer"',
 );
 $tabletGrid: (
   templateRows: "auto auto auto",
-  templateColumns: "#{$sidePanelWidth} 1fr", // Two column layout
+  templateColumns: "#{$sidePanelWidth} 1fr",
+  // Two column layout
   rowGap: "5px",
   columnGap: "1rem",
   templateAreas:
@@ -50,7 +52,8 @@ $desktopGrid: (
   templateRows: "auto auto auto",
   templateColumns: "#{$sidePanelWidth} auto #{$sidePanelWidth}",
   rowGap: "5px",
-  columnGap: "5px", // 左サイドバーとメインコンテンツの間隔を5pxから1remに変更
+  columnGap: "5px",
+  // 左サイドバーとメインコンテンツの間隔を5pxから1remに変更
   templateAreas:
     '"grid-sidebar-left grid-header grid-sidebar-right"\
       "grid-sidebar-left grid-center grid-sidebar-right"\

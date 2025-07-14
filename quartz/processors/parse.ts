@@ -103,7 +103,7 @@ export function createFileParser(ctx: BuildCtx, fps: FilePath[]) {
         file.data.filePath = file.path as FilePath
         file.data.relativePath = path.posix.relative(argv.directory, file.path) as FilePath
         // Use Slug from frontmatter if available, otherwise generate from file path
-        file.data.slug = file.data.frontmatter?.Slug 
+        file.data.slug = file.data.frontmatter?.Slug
           ? toFullSlug(file.data.frontmatter.Slug)
           : slugifyFilePath(file.data.relativePath)
 

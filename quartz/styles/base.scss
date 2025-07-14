@@ -12,9 +12,13 @@
   -ms-text-size-adjust: 100%;
   text-size-adjust: 100%;
   --base-font-size: 16px;
-  --bodyFont: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  --headerFont: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  --codeFont: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
+  --bodyFont:
+    "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell,
+    "Open Sans", "Helvetica Neue", sans-serif;
+  --headerFont:
+    "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell,
+    "Open Sans", "Helvetica Neue", sans-serif;
+  --codeFont: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
 }
 
 /* フォントサイズの継承を防ぐ */
@@ -42,15 +46,34 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
-  font-feature-settings: 'kern' 1, 'liga' 1, 'calt' 1; /* カーニングとリガチャを有効化 */
+  font-feature-settings:
+    "kern" 1,
+    "liga" 1,
+    "calt" 1; /* カーニングとリガチャを有効化 */
 }
 
 /* 基本的なテキスト要素にInterフォントを適用 */
-p, h1, h2, h3, h4, h5, h6, a, li, td, th, span, div, input, textarea, select, button {
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+li,
+td,
+th,
+span,
+div,
+input,
+textarea,
+select,
+button {
   font-family: var(--bodyFont);
   font-optical-sizing: auto;
   font-style: normal;
-  font-variation-settings: 'slnt' 0;
+  font-variation-settings: "slnt" 0;
 }
 
 /* 本文・リスト・テーブルのフォントサイズを統一 */
@@ -93,7 +116,7 @@ ul,
   color: #637983;
   fill: #647a83;
   hyphens: auto;
-  font-size: 1.00rem;
+  font-size: 1rem;
 }
 
 p,
@@ -241,7 +264,7 @@ a {
     }
 
     p > strong {
-      color: var(--dark);
+      color: inherit;
     }
   }
 
@@ -255,7 +278,7 @@ a {
     padding-top: 0.1rem; // 上部のパディングをさらに減らす
 
     @media all and ($tablet) {
-      grid-template-columns: #{map.get($tabletGrid, templateColumns)};
+      grid-template-columns: $sidePanelWidth 1fr;
       grid-template-rows: #{map.get($tabletGrid, templateRows)};
       column-gap: #{map.get($tabletGrid, columnGap)};
       row-gap: #{map.get($tabletGrid, rowGap)};
@@ -285,7 +308,7 @@ a {
       height: 100vh;
       position: sticky;
       overflow: hidden; /* スクロールバーを非表示に */
-      
+
       /* スクロールバーを非表示に（念のため） */
       scrollbar-width: none; /* Firefox */
       -ms-overflow-style: none; /* IE and Edge */
@@ -317,7 +340,7 @@ a {
           display: none; /* Chrome, Safari, Opera */
         }
       }
-      
+
       @media all and not ($desktop) {
         position: initial;
         height: unset;
@@ -353,7 +376,7 @@ a {
           display: none; /* Chrome, Safari, Opera */
         }
       }
-      
+
       @media all and not ($desktop) {
         position: initial;
         height: unset;
@@ -472,10 +495,10 @@ thead {
   margin-bottom: 0;
 
   article > & > a[role="anchor"] {
-    color: var(--dark);
+    color: #2a7ae2;
     background-color: transparent;
   }
-  
+
   /* Ensure links inside headings inherit the parent heading's font size */
   a {
     font-size: inherit;
@@ -511,16 +534,17 @@ h6 {
 article {
   color: #647a83; /* 少し暗い色に変更 */
   font-size: 0.9375rem !important; /* 15pxに固定 */
-  
+
   // .article-titleクラスが付いていない通常のh1にのみ適用
-  h1:not(.article-title), h1.publish-article-heading {
+  h1:not(.article-title),
+  h1.publish-article-heading {
     font-size: 1.6rem;
     line-height: 1.8rem;
     margin-top: 4rem;
     margin-bottom: 1.5rem;
     font-weight: 700;
     position: relative;
-    padding: .5em .7em;
+    padding: 0.5em 0.7em;
     border-radius: 8px;
     background-color: #29a198;
     color: #fff;
@@ -528,51 +552,52 @@ article {
     align-items: center;
     letter-spacing: -0.40545px;
     transition: all 0.2s ease;
-    
+
     // リンクアイコンのスタイル
     .clickable-icon {
       opacity: 0.7;
       margin-left: 8px;
       transition: opacity 0.2s ease;
-      
+
       &:hover {
         opacity: 1;
       }
-      
+
       svg {
         width: 18px;
         height: 18px;
         color: #fff;
       }
     }
-    
+
     // 折りたたみインジケーターのスタイル
     .heading-collapse-indicator {
       margin-right: 8px;
       transition: transform 0.2s ease;
-      
+
       svg {
         width: 18px;
         height: 18px;
         color: #fff;
       }
-      
+
       &.collapsed svg {
         transform: rotate(-90deg);
       }
     }
-    
+
     // ホバー効果
     &:hover {
       background-color: #1e7a74;
     }
-    
+
     a {
       color: #fff;
     }
   }
 
-  h2, h2.publish-article-heading {
+  h2,
+  h2.publish-article-heading {
     font-size: 1.3rem;
     line-height: 1.4rem;
     margin-top: 2rem;
@@ -581,7 +606,7 @@ article {
     font-weight: 600;
     letter-spacing: -0.36045px;
     position: relative;
-    padding: .5em .7em;
+    padding: 0.5em 0.7em;
     border-left: 11px solid #29a198;
     border-bottom: 2px solid #94cac2;
     background-color: #ecf4ec;
@@ -589,50 +614,51 @@ article {
     display: flex;
     align-items: center;
     transition: all 0.2s ease;
-    
+
     // リンクアイコンのスタイル
     .clickable-icon {
       opacity: 0.6;
       margin-left: 8px;
       transition: opacity 0.2s ease;
-      
+
       &:hover {
         opacity: 1;
       }
-      
+
       svg {
         width: 16px;
         height: 16px;
       }
     }
-    
+
     // 折りたたみインジケーターのスタイル
     .heading-collapse-indicator {
       margin-right: 8px;
       transition: transform 0.2s ease;
-      
+
       svg {
         width: 16px;
         height: 16px;
         color: #333333;
       }
-      
+
       &.collapsed svg {
         transform: rotate(-90deg);
       }
     }
-    
+
     // ホバー効果
     &:hover {
       background-color: #dbe9db;
     }
-    
+
     a {
       color: #333333;
     }
   }
 
-  h3, h3.publish-article-heading {
+  h3,
+  h3.publish-article-heading {
     font-size: 1.2rem;
     line-height: 1.25rem;
     margin-top: 3.5rem;
@@ -641,58 +667,59 @@ article {
     font-weight: 600;
     letter-spacing: -0.3204px;
     position: relative;
-    padding: .5em .7em;
+    padding: 0.5em 0.7em;
     border-left: 8px solid #29a198;
     background-color: transparent;
     border-radius: 4px;
     display: flex;
     align-items: center;
     transition: all 0.2s ease;
-    
+
     // リンクアイコンのスタイル
     .clickable-icon {
       opacity: 0.6;
       margin-left: 8px;
       transition: opacity 0.2s ease;
-      
+
       &:hover {
         opacity: 1;
       }
-      
+
       svg {
         width: 14px;
         height: 14px;
       }
     }
-    
+
     // 折りたたみインジケーターのスタイル
     .heading-collapse-indicator {
       margin-right: 8px;
       transition: transform 0.2s ease;
-      
+
       svg {
         width: 14px;
         height: 14px;
         color: #333333;
       }
-      
+
       &.collapsed svg {
         transform: rotate(-90deg);
       }
     }
-    
+
     // ホバー効果
     &:hover {
       border-left-color: #1e7a74;
       border-bottom-color: #a7c2d6;
     }
-    
+
     a {
       color: #333333;
     }
   }
 
-  h4, h4.publish-article-heading {
+  h4,
+  h4.publish-article-heading {
     font-size: 1.15rem;
     margin-top: 3rem;
     margin-bottom: 1rem;
@@ -700,52 +727,52 @@ article {
     font-weight: 600;
     letter-spacing: -0.01em;
     position: relative;
-    padding: .5em .7em;
+    padding: 0.5em 0.7em;
     border-left: 5px solid #29a198;
     background-color: transparent;
     border-radius: 3px;
     display: flex;
     align-items: center;
     transition: all 0.2s ease;
-    
+
     // リンクアイコンのスタイル
     .clickable-icon {
       opacity: 0.6;
       margin-left: 8px;
       transition: opacity 0.2s ease;
-      
+
       &:hover {
         opacity: 1;
       }
-      
+
       svg {
         width: 12px;
         height: 12px;
       }
     }
-    
+
     // 折りたたみインジケーターのスタイル
     .heading-collapse-indicator {
       margin-right: 8px;
       transition: transform 0.2s ease;
-      
+
       svg {
         width: 12px;
         height: 12px;
         color: #333333;
       }
-      
+
       &.collapsed svg {
         transform: rotate(-90deg);
       }
     }
-    
+
     // ホバー効果
     &:hover {
       border-left-color: #1e7a74;
       border-bottom-color: #a7c2d6;
     }
-    
+
     a {
       color: #333333;
     }
@@ -759,14 +786,14 @@ article {
     font-weight: 600;
     letter-spacing: -0.01em;
     position: relative;
-    padding: .5em .7em;
+    padding: 0.5em 0.7em;
     border-left: 3px solid #29a198;
     background-color: transparent;
     border-radius: 2px;
     display: flex;
     align-items: center;
     transition: all 0.2s ease;
-    
+
     // ホバー効果
     &:hover {
       border-left-color: #1e7a74;
@@ -781,7 +808,7 @@ article {
     font-weight: 600;
     letter-spacing: -0.01em;
     position: relative;
-    padding: .5em .7em;
+    padding: 0.5em 0.7em;
     border-left: 1px solid #29a198;
     background-color: transparent;
     border-radius: 1px;

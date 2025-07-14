@@ -32,7 +32,7 @@ export const defaultContentPageLayout: PageLayout = {
         {
           Component: Component.Search(),
           grow: true,
-        }
+        },
       ],
     }),
     Component.Explorer({
@@ -40,18 +40,16 @@ export const defaultContentPageLayout: PageLayout = {
         // Notesフォルダとその中のファイルを非表示にする
         return (
           // ルートのNotesフォルダを非表示にする
-          node.slugSegment !== "Notes" && 
+          node.slugSegment !== "Notes" &&
           // Notes/に始まるパスを非表示にする
           !node.slug.startsWith("Notes/") &&
           // 任意の階層にあるNotesフォルダを非表示にする
           !node.slug.includes("/Notes/")
         )
-      }
+      },
     }),
   ],
-  right: [
-    Component.DesktopOnly(Component.TableOfContents()),
-  ],
+  right: [Component.DesktopOnly(Component.TableOfContents())],
 }
 
 // components for pages that display lists of pages  (e.g. tags or folders)
@@ -64,7 +62,7 @@ export const defaultListPageLayout: PageLayout = {
         {
           Component: Component.Search(),
           grow: true,
-        }
+        },
       ],
     }),
     Component.Explorer({
@@ -72,13 +70,13 @@ export const defaultListPageLayout: PageLayout = {
         // Notesフォルダとその中のファイルを非表示にする
         return (
           // ルートのNotesフォルダを非表示にする
-          node.slugSegment !== "Notes" && 
+          node.slugSegment !== "Notes" &&
           // Notes/に始まるパスを非表示にする
           !node.slug.startsWith("Notes/") &&
           // 任意の階層にあるNotesフォルダを非表示にする
           !node.slug.includes("/Notes/")
         )
-      }
+      },
     }),
   ],
   right: [],

@@ -6,12 +6,12 @@ import { GlobalConfiguration } from "../cfg"
 
 // ファイルパスからファイル名（拡張子なし）を取得する関数
 const getFilenameFromPath = (path: string): string => {
-  if (!path) return ''
+  if (!path) return ""
   // パスから最後のスラッシュ以降を取得
-  const lastSlash = path.lastIndexOf('/')
+  const lastSlash = path.lastIndexOf("/")
   const filename = lastSlash === -1 ? path : path.substring(lastSlash + 1)
   // 拡張子を削除
-  const dotIndex = filename.lastIndexOf('.')
+  const dotIndex = filename.lastIndexOf(".")
   return dotIndex === -1 ? filename : filename.substring(0, dotIndex)
 }
 
@@ -78,7 +78,7 @@ export const PageList: QuartzComponent = ({ cfg, fileData, allFiles, limit, sort
   return (
     <ul class="section-ul">
       {list.map((page) => {
-        const title = getFilenameFromPath(page.slug || '')
+        const title = getFilenameFromPath(page.slug || "")
         const tags = page.frontmatter?.tags ?? []
 
         return (
