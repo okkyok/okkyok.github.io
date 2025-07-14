@@ -328,9 +328,6 @@ a {
 
       // タイトルと検索をFlexboxで横並びにする
       & > div:first-of-type {
-        display: flex;
-        align-items: center;
-        gap: 1rem; // タイトルと検索の間のスペース
         padding: 0; // パディングをリセット
         margin-bottom: 1rem; // 下の余白
 
@@ -347,7 +344,7 @@ a {
       @media all and ($mobile) {
         display: none; // Hide left sidebar on mobile
       }
-      @media all and ($desktop) {
+      @media all and ($tablet), all and ($desktop) {
         position: sticky;
         top: 0;
         height: 100vh;
@@ -357,21 +354,6 @@ a {
         -ms-overflow-style: none; /* IE and Edge */
         &::-webkit-scrollbar {
           display: none; /* Chrome, Safari, Opera */
-        }
-      }
-
-      @media all and not ($desktop) {
-        position: initial;
-        height: unset;
-        width: 100%;
-        flex-direction: row;
-        padding: 0;
-        & > * {
-          flex: 1;
-          max-height: 24rem;
-        }
-        & > .toc {
-          display: flex; /* 目次を表示するように変更 */
         }
       }
     }
@@ -383,7 +365,7 @@ a {
         display: none; // Hide right sidebar on tablet and mobile
       }
       /* デスクトップ表示時のみ固定表示を有効に */
-      @media all and ($desktop) {
+      @media all and ($tablet), all and ($desktop) {
         position: sticky;
         top: 0;
         height: 100vh;
@@ -393,21 +375,6 @@ a {
         -ms-overflow-style: none; /* IE and Edge */
         &::-webkit-scrollbar {
           display: none; /* Chrome, Safari, Opera */
-        }
-      }
-
-      @media all and not ($desktop) {
-        position: initial;
-        height: unset;
-        width: 100%;
-        flex-direction: row;
-        padding: 0;
-        & > * {
-          flex: 1;
-          max-height: 24rem;
-        }
-        & > .toc {
-          display: flex; /* 目次を表示するように変更 */
         }
       }
     }
@@ -627,7 +594,6 @@ article {
     position: relative;
     padding: 0.5em 0.7em;
     border-left: 11px solid #29a198;
-    border-bottom: 2px solid #94cac2;
     background-color: #ecf4ec;
     border-radius: 6px;
     display: block;
@@ -750,8 +716,7 @@ article {
     border-left: 5px solid #29a198;
     background-color: transparent;
     border-radius: 3px;
-    display: flex;
-    align-items: center;
+    display: block;
     transition: all 0.2s ease;
 
     // リンクアイコンのスタイル
