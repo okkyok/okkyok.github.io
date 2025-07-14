@@ -331,7 +331,7 @@ a {
         display: flex;
         align-items: center;
         gap: 1rem; // タイトルと検索の間のスペース
-        padding: 0 1rem; // 左右の余白
+        padding: 0; // パディングをリセット
         margin-bottom: 1rem; // 下の余白
 
         // PageTitleの親コンテナ
