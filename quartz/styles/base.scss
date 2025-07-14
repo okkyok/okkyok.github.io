@@ -326,24 +326,23 @@ a {
       max-width: #{$sidePanelWidth}; /* 最大幅も固定 */
       border-right: 1px solid #a2abb0; /* 右側に1pxの境界線を追加 */
 
-      // タイトルと検索を囲むコンテナをFlexboxにする
+      // タイトルと検索をFlexboxで横並びにする
       & > div:first-of-type {
         display: flex;
-        flex-wrap: nowrap; // 折り返さない
-        align-items: center; // 垂直方向中央揃え
-        padding: 0 1rem; // 左右に余白を追加
-        margin-bottom: 1rem; // 下に余白を追加
-      }
+        align-items: center;
+        gap: 1rem; // タイトルと検索の間のスペース
+        padding: 0 1rem; // 左右の余白
+        margin-bottom: 1rem; // 下の余白
 
-      // PageTitleコンポーネントのスタイル調整
-      .page-title {
-        margin: 0; // 余白をリセット
-      }
+        // PageTitleの親コンテナ
+        & > div:has(.page-title) {
+          flex: 0 0 auto; // 幅を自動調整
+        }
 
-      // Searchコンポーネントのスタイル調整
-      .search {
-        margin: 0 0 0 auto; // 左側に自動で余白を取り、右寄せにする
-        max-width: 10rem; // 最大幅を少し調整
+        // Searchの親コンテナ
+        & > div:has(.search) {
+          flex: 1 1 auto; // 残りのスペースを埋める
+        }
       }
       @media all and ($mobile) {
         display: none; // Hide left sidebar on mobile
@@ -631,8 +630,7 @@ article {
     border-bottom: 2px solid #94cac2;
     background-color: #ecf4ec;
     border-radius: 6px;
-    display: flex;
-    align-items: center;
+    display: block;
     transition: all 0.2s ease;
 
     // リンクアイコンのスタイル
@@ -674,6 +672,7 @@ article {
 
     a {
       color: #333333;
+      display: inline;
     }
   }
 
@@ -793,8 +792,26 @@ article {
       border-bottom-color: #a7c2d6;
     }
 
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+    color: #29a198;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+    position: relative;
+    padding: 0.5em 0.7em;
+    border-left: 3px solid #29a198;
+    background-color: rgba(41, 161, 152, 0.05);
+    border-radius: 2px;
+    display: block;
+    transition: all 0.2s ease;
+
     a {
-      color: #333333;
+      display: inline;
+    }
+
+    // ホバー効果
+    &:hover {
+      border-left-color: #1e7a74;
     }
   }
 
@@ -807,12 +824,15 @@ article {
     letter-spacing: -0.01em;
     position: relative;
     padding: 0.5em 0.7em;
-    border-left: 3px solid #29a198;
+    border-left: 2px solid #29a198;
     background-color: transparent;
-    border-radius: 2px;
-    display: flex;
-    align-items: center;
+    border-radius: 1px;
+    display: block;
     transition: all 0.2s ease;
+
+    a {
+      display: inline;
+    }
 
     // ホバー効果
     &:hover {
@@ -832,9 +852,12 @@ article {
     border-left: 1px solid #29a198;
     background-color: transparent;
     border-radius: 1px;
-    display: flex;
-    align-items: center;
+    display: block; // flexからblockに変更
     transition: all 0.2s ease;
+
+    a {
+      display: inline; // リンクをインライン表示に
+    }
   }
 }
 
