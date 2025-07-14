@@ -27,6 +27,7 @@ export const defaultContentPageLayout: PageLayout = {
   ],
   left: [
     Component.Flex({
+      direction: "row",
       components: [
         {
           Component: Component.PageTitle(),
@@ -60,6 +61,7 @@ export const defaultListPageLayout: PageLayout = {
   beforeBody: [Component.Breadcrumbs(), Component.ArticleTitle(), Component.ContentMeta()],
   left: [
     Component.Flex({
+      direction: "row",
       components: [
         {
           Component: Component.PageTitle(),
