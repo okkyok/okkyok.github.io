@@ -26,12 +26,15 @@ export const defaultContentPageLayout: PageLayout = {
     Component.TagList(),
   ],
   left: [
-    Component.PageTitle(),
     Component.Flex({
       components: [
         {
+          Component: Component.PageTitle(),
+          grow: false, // タイトルは幅を固定
+        },
+        {
           Component: Component.Search(),
-          grow: true,
+          grow: true, // 検索は残りの幅を埋める
         },
       ],
     }),
@@ -56,12 +59,15 @@ export const defaultContentPageLayout: PageLayout = {
 export const defaultListPageLayout: PageLayout = {
   beforeBody: [Component.Breadcrumbs(), Component.ArticleTitle(), Component.ContentMeta()],
   left: [
-    Component.PageTitle(),
     Component.Flex({
       components: [
         {
+          Component: Component.PageTitle(),
+          grow: false, // タイトルは幅を固定
+        },
+        {
           Component: Component.Search(),
-          grow: true,
+          grow: true, // 検索は残りの幅を埋める
         },
       ],
     }),
