@@ -29,6 +29,7 @@ export const defaultContentPageLayout: PageLayout = {
     Component.PageTitle(),
     Component.Search(),
     Component.Explorer({
+      title: "", // タイトルを非表示にする
       filterFn: (node) => {
         // Notesフォルダとその中のファイルを非表示にする
         return (
@@ -52,6 +53,7 @@ export const defaultListPageLayout: PageLayout = {
     Component.PageTitle(),
     Component.Search(),
     Component.Explorer({
+      title: "", // タイトルを非表示にする
       filterFn: (node) => {
         // Notesフォルダとその中のファイルを非表示にする
         return (

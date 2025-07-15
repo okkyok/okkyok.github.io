@@ -16,7 +16,7 @@
       box-sizing: border-box;
       position: sticky;
       background-color: #fdf6e3;
-      padding: 0rem 0 0rem 0; // 上下のパディングをさらに減らす
+      padding: 0rem 0rem 0rem 0; // 上下のパディングをさらに減らす
       margin: 0;
     }
 
@@ -35,10 +35,10 @@
     display: none; /* Chrome/Safari/Opera用 */
   }
   margin: 0;
-  padding: 0 0 0 0.5rem;
+  padding: 0 0 0 1.5rem; // 左側の余白を1.5remに増やす
   width: 100%;
   box-sizing: border-box;
-  min-height: 1.2rem;
+  min-height: 0rem; // 最小の高さを0にして上部余白を削除
   flex: 1 1 auto;
   @media all and ($desktop) {
     position: sticky;
@@ -48,6 +48,7 @@
 
   /* ナビゲーションのヘッダー部分を固定 */
   & > button.desktop-explorer {
+    display: none; // ヘッダー全体を非表示にする
     position: sticky;
     top: 0;
     background-color: #fdf6e3;
@@ -56,13 +57,10 @@
     padding-bottom: 0rem;
   }
   &.collapsed {
-    flex: 0 1 1.2rem;
-    & .fold {
-      transform: rotateZ(-90deg);
-    }
   }
 
   & .fold {
+    display: none;
     margin-left: 0.5rem;
     transition: transform 0.3s ease;
     opacity: 0.8;
@@ -97,7 +95,22 @@
   }
 
   button.desktop-explorer {
+    display: none; // ヘッダー全体を非表示にする
+    background-color: transparent;
+    border: none;
+    text-align: left;
+    cursor: pointer;
+    padding: 0;
+    color: #637983;
     display: flex;
+    align-items: center;
+
+    & h2 {
+      font-size: 0.9rem;
+      display: inline-block;
+      margin: 0;
+      color: #637983;
+    }
   }
 
   @media all and ($mobile) {
@@ -168,6 +181,7 @@ button.desktop-explorer {
 .explorer-content {
   flex: 1 1 auto;
   overflow: hidden;
+  height: 100%; // 高さを100%に拡張
 
   /* スクロール可能な領域 */
   .explorer-scrollable {
@@ -187,6 +201,12 @@ button.desktop-explorer {
     margin: 0;
     padding: 0 0 0 0; /* 下部の余白を0に */
     overscroll-behavior: contain;
+
+    &::before {
+      content: "";
+      display: block;
+      height: 1.0rem;
+    }
 
     & li {
       margin-bottom: 0.4rem;
