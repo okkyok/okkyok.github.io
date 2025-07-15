@@ -35,7 +35,7 @@
     display: none; /* Chrome/Safari/Opera用 */
   }
   margin: 0;
-  padding: 0 1rem;
+  padding: 0 0 0 0.5rem;
   width: 100%;
   box-sizing: border-box;
   min-height: 1.2rem;
@@ -187,7 +187,7 @@ button.desktop-explorer {
     overscroll-behavior: contain;
 
     & li {
-      margin-bottom: 0.6rem;
+      margin-bottom: 0.4rem;
 
       & > a {
         color: #647a83 !important;
