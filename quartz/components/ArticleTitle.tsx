@@ -14,7 +14,7 @@ ArticleTitle.css = `
 h1.article-title {
   margin: 1.0rem 0 0 0 !important; /* 上の空白を1.9remから1.4remに0.5rem減らす */
   padding-left: 1.5rem !important;
-  padding-right: 1.5rem !important;
+  padding-right: 2.5rem !important; /* 1.5remから2.5remに変更 */
   font-size: 1.9rem !important;
   line-height: 2.3rem !important;
   color: #647a83 !important;

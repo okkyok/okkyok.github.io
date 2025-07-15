@@ -209,9 +209,8 @@ button.desktop-explorer {
         }
 
         &.active {
-          opacity: 1;
-          color: #4a5c63;
-          font-weight: 500;
+          color: #26a69a !important; // 緑色 (優先度を最大に)
+          font-weight: 600; // 少し太字に
         }
       }
     }
