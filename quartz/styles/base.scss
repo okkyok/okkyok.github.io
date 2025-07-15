@@ -328,7 +328,7 @@ a {
       // タイトルと検索をFlexboxで横並びにする
       & > div:first-of-type {
         padding: 0; // パディングをリセット
-        margin-bottom: 1rem; // 下の余白
+        margin-bottom: 0.2rem; // 下の余白
 
         // PageTitleの親コンテナ
         & > div:has(.page-title) {
@@ -484,9 +484,10 @@ thead {
     background-color: transparent;
   }
 
-  /* Ensure links inside headings inherit the parent heading's font size */
+  /* Ensure links inside headings inherit the parent heading's font size but keep link color */
   a {
     font-size: inherit;
+    color: #2a7ae2; // リンクの色を青色に指定
   }
 }
 
@@ -577,7 +578,7 @@ article {
     }
 
     a {
-      color: #fff;
+      color: #2a7ae2;
     }
   }
 
@@ -597,6 +598,10 @@ article {
     border-radius: 6px;
     display: block;
     transition: all 0.2s ease;
+
+    a {
+      color: #2a7ae2 !important; // リンクの色を青色に強制指定
+    }
 
     // リンクアイコンのスタイル
     .clickable-icon {
@@ -659,6 +664,10 @@ article {
     align-items: center;
     transition: all 0.2s ease;
 
+    a {
+      color: #2a7ae2 !important; // リンクの色を青色に強制指定
+    }
+
     // リンクアイコンのスタイル
     .clickable-icon {
       opacity: 0.6;
@@ -717,6 +726,10 @@ article {
     border-radius: 3px;
     display: block;
     transition: all 0.2s ease;
+
+    a {
+      color: #2a7ae2; // リンクの色を青色に指定
+    }
 
     // リンクアイコンのスタイル
     .clickable-icon {
@@ -796,6 +809,7 @@ article {
 
     a {
       display: inline;
+      color: #2a7ae2; // リンクの色を青色に指定
     }
 
     // ホバー効果
@@ -821,6 +835,7 @@ article {
 
     a {
       display: inline; // リンクをインライン表示に
+      color: #2a7ae2; // リンクの色を青色に指定
     }
   }
 }

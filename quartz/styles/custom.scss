@@ -99,3 +99,12 @@ body > div.sidebar-container .explorer + .footer {
     }
   }
 }
+
+// 全ての見出し内のリンク色を強制的に青色に統一
+article {
+  h1, h2, h3, h4, h5, h6 {
+    a {
+      color: #2a7ae2 !important;
+    }
+  }
+}

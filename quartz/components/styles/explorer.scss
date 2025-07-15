@@ -40,9 +40,11 @@
   box-sizing: border-box;
   min-height: 1.2rem;
   flex: 1 1 auto;
-  position: sticky;
-  top: 2.5rem;
-  max-height: calc(100vh - 2rem);
+  @media all and ($desktop) {
+    position: sticky;
+    top: 2.5rem;
+    max-height: calc(100vh - 2rem);
+  }
 
   /* ナビゲーションのヘッダー部分を固定 */
   & > button.desktop-explorer {
