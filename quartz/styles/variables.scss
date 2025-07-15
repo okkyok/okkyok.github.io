@@ -52,7 +52,7 @@ $desktopGrid: (
   templateRows: "auto auto auto",
   templateColumns: "#{$sidePanelWidth} auto #{$sidePanelWidth}",
   rowGap: "5px",
-  columnGap: "5px",
+  columnGap: "1rem",
   // 左サイドバーとメインコンテンツの間隔を5pxから1remに変更
   templateAreas:
     '"grid-sidebar-left grid-header grid-sidebar-right"\

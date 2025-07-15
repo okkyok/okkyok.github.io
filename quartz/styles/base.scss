@@ -83,7 +83,7 @@ td,
 th,
 ol,
 ul {
-  font-size: 1.05rem;
+  font-size: 1.0rem;
 }
 
 .text-highlight {
@@ -218,6 +218,9 @@ a {
   &.flex-component {
     display: flex;
   }
+
+// @mediaがレスポンシブルデザインを調整する部分
+
   @media all and ($mobile) {
     &.flex-component {
       display: none;
@@ -275,7 +278,7 @@ a {
     column-gap: #{map.get($desktopGrid, columnGap)};
     row-gap: #{map.get($desktopGrid, rowGap)};
     grid-template-areas: #{map.get($desktopGrid, templateAreas)};
-    padding-top: 0.1rem; // 上部のパディングをさらに減らす
+    padding-top: 0rem; 
 
     @media all and ($tablet) {
       grid-template-columns: $sidePanelWidth 1fr;
@@ -356,6 +359,7 @@ a {
         }
       }
     }
+
     & .sidebar.right {
       grid-area: grid-sidebar-right;
       margin-right: 0;
@@ -387,7 +391,7 @@ a {
       margin: $topSpacing 0 0 0;
       background-color: #fdf6e3;
       @media all and ($mobile) {
-        margin-top: 0;
+        // margin-top: 0;
         padding: 0;
         background-color: #fdf6e3;
       }
@@ -396,7 +400,7 @@ a {
     & .center > article {
       grid-area: grid-center;
       padding-left: 1.5rem; /* 記事コンテンツの左側に余白を追加 */
-      padding-right: 1.5rem; /* 記事コンテンツの右側に余白を追加 */
+      padding-right: 3.0rem; /* 記事コンテンツの右側に余白を追加 */
     }
 
     & footer {
