@@ -25,6 +25,13 @@ export default ((opts?: Partial<BacklinksOptions>) => {
   }: QuartzComponentProps) => {
     const slug = simplifySlug(fileData.slug!)
     const backlinkFiles = allFiles.filter((file) => file.links?.includes(slug))
+      .filter(file => {
+        const slug = file.slug!;
+        const segments = slug.split('/');
+        // 'Notes' フォルダやその中のファイルを非表示にする
+        return segments[0] !== 'Notes' && !slug.startsWith('Notes/') && !slug.includes('/Notes/');
+      });
+
     if (options.hideWhenEmpty && backlinkFiles.length == 0) {
       return null
     }
