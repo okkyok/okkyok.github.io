@@ -8,11 +8,13 @@ LOVENTIA
 
 
 
-![[!プロフィール画像.avif]]
+![[%プロフィール画像1.avif]]
 
 [[👤okky]]が運営するブログ。
 サイト名の[[Loventia]]は、「愛と冒険心があれば、世界をもっと楽しめる」という考えに由来する。
 
+
+## カテゴリ
 
 
 [♠️ Poker](https://okkylife.com/%E2%99%A0%EF%B8%8FPoker/)
