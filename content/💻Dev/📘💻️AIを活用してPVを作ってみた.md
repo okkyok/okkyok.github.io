@@ -4,7 +4,7 @@ Category:
 Date: 2025-08-29
 Published: "true"
 Slug: ""
-created: 2025-05-01 23:37:00+00:00
+created: 2025-08-29 23:37:00+00:00
 title: 📘💻️AIを活用してPVを作ってみた
 updated: 2025-08-30 02:52:00+00:00
 url:
